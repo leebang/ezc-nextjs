@@ -1,5 +1,5 @@
 import { NextPage } from 'next';
-import Head from 'next/head'
+import Head from 'next/head';
 
 
 // import EZC_LOGO_DARK from '//assets/images/logos/EZG_LOGO_DARK.png';
@@ -14,9 +14,13 @@ const Home: NextPage = () => (
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Easy Career | 找工作，上易职</title>
     <link rel="stylesheet" href="/assets/css/vendor.css" />
-    {/* <link rel="stylesheet" href="/assets/css/style.css" /> */}
-    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-    
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script type="text/javascript" src="/assets/js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="/assets/js/vendor.js"></script>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
+    <script type="text/javascript" src="/assets/js/shopify.js"></script>
+    <script type="text/javascript" src="//code.tidio.co/bvmdkbiydd0dddefe6od2ym6lrtkl9te.js"></script>
+
     <link rel="icon" type="image/png" href="assets/images/favicon.png"></link>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140811008-5"></script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -124,56 +128,60 @@ const Home: NextPage = () => (
         {/* header */}
         {/* cover */}
         <section className="p-0">
-          <div className="gallery">
-            <div className="gallery-container">
-              <div className="swiper-wrapper">
-                <div className="swiper-slide vh-100">
-                  <div className="image image-overlay" style={{backgroundImage: 'url(/assets/images/landing/landing-1.jpg)'}}>
+      <div className="gallery">
+        <div className="gallery-container">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide vh-100">
+              <div className="image image-overlay" style={{backgroundImage:'url(assets/images/landing/landing-1.jpg)'}}>
+            
+
+</div>
+              <div className="caption text-white" data-swiper-parallax="-100%">
+                <div className="container">
+                <div className="row justify-content-between vh-100">
+                  <div className="col-lg-8 align-self-center text-white text-shadow" data-swiper-parallax="-100%">
+                    <span className="eyebrow text-white mb-1">Career Consulting Services</span>
+                    <h1 className="display-2">一站式留学生职业服务</h1>
+
+                    <a href="contacts.html" className="btn btn-white btn-rounded px-5">联系我们</a>
                   </div>
-                  <div className="caption text-white" data-swiper-parallax="-100%">
-                    <div className="container">
-                      <div className="row justify-content-between vh-100">
-                        <div className="col-lg-8 align-self-center text-white text-shadow" data-swiper-parallax="-100%">
-                          <span className="eyebrow text-white mb-1">Career Consulting Services</span>
-                          <h1 className="display-2">一站式留学生职业服务</h1>
-                          <a href="contacts.html" className="btn btn-white btn-rounded px-5">联系我们</a>
+                  <div className="col-lg-4 align-self-end">
+                    <div className="row gutter-1">
+
+                    	<div className="col-6 text-white">
+                        <div className="equal">
+                          <div className="bordered">
+                                                       <div className="equal-footer">
+                              <div className="component-example">
+           
+               <a className="popup-youtube" href="https://www.youtube.com/watch?v=DZB46VAIfzc">观看品牌视频<i className="icon-play2"></i></a>
+       
+          </div>
+                            </div>
+                          </div>
                         </div>
-                        <div className="col-lg-4 align-self-end">
-                          <div className="row gutter-1">
-                            <div className="col-6 text-white">
-                              <div className="equal">
-                                <div className="bordered">
-                                  <div className="equal-footer">
-                                    <div className="component-example">
-                                      <a className="popup-youtube" href="https://www.youtube.com/watch?v=DZB46VAIfzc">观看品牌视频<i className="icon-play2" /></a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
+                      </div>
+
+                      <div className="col-6 text-white">
+                        <div className="equal">
+                          <div className="bordered">
+                            <div className="equal-header">
+                              <h4>始于2017</h4>
                             </div>
-                            <div className="col-6 text-white">
-                              <div className="equal">
-                                <div className="bordered">
-                                  <div className="equal-header">
-                                    <h4>始于2017</h4>
-                                  </div>
-                                  <div className="equal-footer">
-                                    <span className="text-muted">北美求职风向标</span>
-                                  </div>
-                                </div>
-                              </div>
+                            <div className="equal-footer">
+                              <span className="text-muted">北美求职风向标</span>
                             </div>
-                            <div className="col-6 text-white">
-                              <div className="equal">
-                                <div className="bordered">
-                                  <div className="equal-header">
-                                    <h4>200+ 精英导师</h4>
-                                  </div>
-                                  <div className="equal-footer">
-                                    <span className="text-muted">为留学生的就业保驾护航</span>
-                                  </div>
-                                </div>
-                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-6 text-white">
+                        <div className="equal">
+                          <div className="bordered">
+                            <div className="equal-header">
+                              <h4>200+ 精英导师</h4>
+                            </div>
+                            <div className="equal-footer">
+                              <span className="text-muted">为留学生的就业保驾护航</span>
                             </div>
                           </div>
                         </div>
@@ -181,71 +189,80 @@ const Home: NextPage = () => (
                     </div>
                   </div>
                 </div>
-                <div className="swiper-slide">
-                  <div className="image image-overlay" style={{backgroundImage: 'url(/assets/images/landing/jobboard-2.jpg)'}}>
-                  </div>
-                  <div className="caption text-white" data-swiper-parallax="-100%">
-                    <div className="container">
-                      <div className="row justify-content-center align-items-center vh-90">
-                        <div className="col-md-10  col-lg-8 text-center">
-                          <span className="eyebrow mb-2">Jobs.ezcareer.ca</span>
-                          <h1 className="display-2">适合留学生的Job Board</h1>
-                          <a href="http://jobs.ezcareer.ca" className="btn btn-white btn-rounded px-5" target="_blank">进入官网</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="image image-overlay" style={{backgroundImage: 'url(/assets/images/landing/landing-2.jpg)'}}>
-                  </div>
-                  <div className="caption text-white" data-swiper-parallax="-100%">
-                    <div className="container">
-                      <div className="row justify-content-center align-items-center vh-90">
-                        <div className="col-md-10 col-lg-8 text-center">
-                          <span className="eyebrow mb-2">VIP Program</span>
-                          <h1 className="display-2">私人订制求职特训计划</h1>
-                          <a href="http://www.ezcareer.ca/vip.html" className="btn btn-white btn-rounded px-5" target="_blank">了解更多</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="image image-overlay" style={{backgroundImage: 'url(/assets/images/landing/learning-1-min.jpg)'}}>
-                  </div>
-                  <div className="caption text-white" data-swiper-parallax="-100%">
-                    <div className="container">
-                      <div className="row justify-content-center align-items-center vh-90">
-                        <div className="col-md-10 col-lg-8 text-center">
-                          <span className="eyebrow mb-2">Tutoring Services</span>
-                          <h1 className="display-2">让你的GPA轻松4.0</h1>
-                          <a href="https://ez4edu.com/" className="btn btn-white btn-rounded px-5" target="_blank">进入官网</a>
-                        </div>
-                      </div>
+              </div>
+              </div>
+
+
+            </div>
+            
+            <div className="swiper-slide">
+              <div className="image image-overlay" style={{backgroundImage:'url(assets/images/landing/jobboard-2.jpg)'}}>
+              </div>
+              <div className="caption text-white" data-swiper-parallax="-100%">
+                <div className="container">
+                  <div className="row justify-content-center align-items-center vh-90">
+                    <div className="col-md-10  col-lg-8 text-center">
+                      <span className="eyebrow mb-2">Jobs.ezcareer.ca</span>
+                      <h1 className="display-2">适合留学生的Job Board</h1>
+                      <a href="http://jobs.ezcareer.ca" className="btn btn-white btn-rounded px-5" target="_blank">进入官网</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="gallery-thumbs">
-              <div className="swiper-wrapper">
-                <div className="swiper-slide">
-                  <h5>职业咨询</h5>
-                </div>
-                <div className="swiper-slide">
-                  <h5>岗位直通车</h5>
-                </div>
-                <div className="swiper-slide">
-                  <h5>VIP Program</h5>
-                </div>
-                <div className="swiper-slide">
-                  <h5>课程辅导</h5>
+	<div className="swiper-slide">
+              <div className="image image-overlay" style={{backgroundImage:'url(assets/images/landing/landing-2.jpg)'}}>
+              </div>
+              <div className="caption text-white" data-swiper-parallax="-100%">
+                <div className="container">
+                  <div className="row justify-content-center align-items-center vh-90">
+                    <div className="col-md-10 col-lg-8 text-center">
+                      <span className="eyebrow mb-2">VIP Program</span>
+                      <h1 className="display-2">私人订制求职特训计划</h1>
+                      <a href="http://www.ezcareer.ca/vip.html" className="btn btn-white btn-rounded px-5" target="_blank">了解更多</a>
+                    </div>
+                  </div>
                 </div>
               </div>
+            </div>
+             <div className="swiper-slide">
+              <div className="image image-overlay" style={{backgroundImage:'url(assets/images/landing/learning-1-min.jpg)'}}>
+              </div>
+              <div className="caption text-white" data-swiper-parallax="-100%">
+                <div className="container">
+                  <div className="row justify-content-center align-items-center vh-90">
+                    <div className="col-md-10 col-lg-8 text-center">
+                      <span className="eyebrow mb-2">Tutoring Services</span>
+                      <h1 className="display-2">让你的GPA轻松4.0</h1>
+                      <a href="https://ez4edu.com/" className="btn btn-white btn-rounded px-5" target="_blank">进入官网</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                
+
+          </div>
+        </div>
+        <div className="gallery-thumbs">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide">
+              <h5>职业咨询</h5>
+            </div>
+            <div className="swiper-slide">
+              <h5>岗位直通车</h5>
+            </div>
+            <div className="swiper-slide">
+              <h5>VIP Program</h5>
+            </div>
+            <div className="swiper-slide">
+              <h5>课程辅导</h5>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
+    </section>
         {/* / cover */}
         {/* about */}
         <section>
@@ -286,13 +303,13 @@ const Home: NextPage = () => (
             </div>  
             {/* products
     <section className="pt-0">
-      <div class="container">
-        <div class="row gutter-1">
-          <div class="col-md-6 col-lg-4">
-            <div class="accordion-group accordion-group-feature" data-accordion-group>
-              <div class="accordion" data-accordion data-aos="fade-up">
-                <div class="accordion-control" data-control>
-                  <i class="fw-25 svg-icon fs-50 text-orange">
+      <div className="container">
+        <div className="row gutter-1">
+          <div className="col-md-6 col-lg-4">
+            <div className="accordion-group accordion-group-feature" data-accordion-group>
+              <div className="accordion" data-accordion data-aos="fade-up">
+                <div className="accordion-control" data-control>
+                  <i className="fw-25 svg-icon fs-50 text-orange">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                        width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                     <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="26"/>
@@ -303,33 +320,33 @@ const Home: NextPage = () => (
                     <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="59,4 63,8 61,18 49,6 "/>
                     </svg>
                   </i>
-                  <h4 class="fs-16">金融证书类课程</h4>
+                  <h4 className="fs-16">金融证书类课程</h4>
                 </div>
-                <div class="accordion-content" data-content>
-                  <div class="accordion-content-wrapper">
-                    <ul class="list-group list-group-minimal">
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        CFA I级 保过班 <i class="icon-check2 fs-20"></i>
+                <div className="accordion-content" data-content>
+                  <div className="accordion-content-wrapper">
+                    <ul className="list-group list-group-minimal">
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        CFA I级 保过班 <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        CFA II级 保过班 <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        CFA II级 保过班 <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        CSC 证书班 <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        CSC 证书班 <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        SAS 双证班 <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        SAS 双证班 <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        FRM 证书班 <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        FRM 证书班 <i className="icon-check2 fs-20"></i>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="accordion" data-accordion data-aos="fade-up">
-                <div class="accordion-control" data-control>
-                  <i class="fw-25 svg-icon fs-50 text-orange">
+              <div className="accordion" data-accordion data-aos="fade-up">
+                <div className="accordion-control" data-control>
+                  <i className="fw-25 svg-icon fs-50 text-orange">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                        width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                     <g>
@@ -340,25 +357,25 @@ const Home: NextPage = () => (
                     <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M23,18c0,0,0-8,9-8s9,8,9,8"/>
                     </svg>
                   </i>
-                  <h4 class="fs-16">职场硬技能课程</h4>
+                  <h4 className="fs-16">职场硬技能课程</h4>
                 </div>
-                <div class="accordion-content" data-content>
-                  <div class="accordion-content-wrapper">
-                    <ul class="list-group list-group-minimal">
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i class="icon-check2 fs-20"></i>
+                <div className="accordion-content" data-content>
+                  <div className="accordion-content-wrapper">
+                    <ul className="list-group list-group-minimal">
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bidet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bathroom <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Toilet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Free toiletries <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Hairdryer <i className="icon-check2 fs-20"></i>
                       </li>
                     </ul>
                   </div>
@@ -366,11 +383,11 @@ const Home: NextPage = () => (
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="accordion-group accordion-group-feature" data-accordion-group>
-              <div class="accordion" data-accordion data-aos="fade-up">
-                <div class="accordion-control" data-control>
-                  <i class="fw-25 svg-icon fs-50 text-orange">
+          <div className="col-md-6 col-lg-4">
+            <div className="accordion-group accordion-group-feature" data-accordion-group>
+              <div className="accordion" data-accordion data-aos="fade-up">
+                <div className="accordion-control" data-control>
+                  <i className="fw-25 svg-icon fs-50 text-orange">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                        width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                     <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="7" y1="0" x2="7" y2="64"/>
@@ -379,33 +396,33 @@ const Home: NextPage = () => (
                     <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="26,30 7,30 7,6 32,6 32,11 "/>
                     </svg>
                   </i>
-                  <h4 class="fs-16">Food & Drink</h4>
+                  <h4 className="fs-16">Food & Drink</h4>
                 </div>
-                <div class="accordion-content" data-content>
-                  <div class="accordion-content-wrapper">
-                    <ul class="list-group list-group-minimal">
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i class="icon-check2 fs-20"></i>
+                <div className="accordion-content" data-content>
+                  <div className="accordion-content-wrapper">
+                    <ul className="list-group list-group-minimal">
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bidet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bathroom <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Toilet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Free toiletries <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Hairdryer <i className="icon-check2 fs-20"></i>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="accordion" data-accordion data-aos="fade-up">
-                <div class="accordion-control" data-control>
-                  <i class="fw-25 svg-icon fs-50 text-orange">
+              <div className="accordion" data-accordion data-aos="fade-up">
+                <div className="accordion-control" data-control>
+                  <i className="fw-25 svg-icon fs-50 text-orange">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                        width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                     <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="56,22 56,54 1,54 1,15 19.629,15 26.726,22 
@@ -414,25 +431,25 @@ const Home: NextPage = () => (
                       58,46 "/>
                     </svg>
                   </i>
-                  <h4 class="fs-16">Transportation</h4>
+                  <h4 className="fs-16">Transportation</h4>
                 </div>
-                <div class="accordion-content" data-content>
-                  <div class="accordion-content-wrapper">
-                    <ul class="list-group list-group-minimal">
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i class="icon-check2 fs-20"></i>
+                <div className="accordion-content" data-content>
+                  <div className="accordion-content-wrapper">
+                    <ul className="list-group list-group-minimal">
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bidet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bathroom <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Toilet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Free toiletries <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Hairdryer <i className="icon-check2 fs-20"></i>
                       </li>
                     </ul>
                   </div>
@@ -440,11 +457,11 @@ const Home: NextPage = () => (
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4">
-            <div class="accordion-group accordion-group-feature" data-accordion-group>
-              <div class="accordion" data-accordion data-aos="fade-up">
-                <div class="accordion-control" data-control>
-                  <i class="fw-25 svg-icon fs-50 text-orange">
+          <div className="col-md-6 col-lg-4">
+            <div className="accordion-group accordion-group-feature" data-accordion-group>
+              <div className="accordion" data-accordion data-aos="fade-up">
+                <div className="accordion-control" data-control>
+                  <i className="fw-25 svg-icon fs-50 text-orange">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                        width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                     <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,1c14.359,0,27,12.641,27,27S46.359,55,32,55
@@ -454,33 +471,33 @@ const Home: NextPage = () => (
                     <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="22" y1="63" x2="42" y2="63"/>
                     </svg>
                   </i>
-                  <h4 class="fs-16">Amenities</h4>
+                  <h4 className="fs-16">Amenities</h4>
                 </div>
-                <div class="accordion-content" data-content>
-                  <div class="accordion-content-wrapper">
-                    <ul class="list-group list-group-minimal">
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i class="icon-check2 fs-20"></i>
+                <div className="accordion-content" data-content>
+                  <div className="accordion-content-wrapper">
+                    <ul className="list-group list-group-minimal">
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bidet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bathroom <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Toilet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Free toiletries <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Hairdryer <i className="icon-check2 fs-20"></i>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="accordion" data-accordion data-aos="fade-up">
-                <div class="accordion-control" data-control>
-                  <i class="fw-25 svg-icon fs-50 text-orange">
+              <div className="accordion" data-accordion data-aos="fade-up">
+                <div className="accordion-control" data-control>
+                  <i className="fw-25 svg-icon fs-50 text-orange">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                        width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                     <g>
@@ -491,25 +508,25 @@ const Home: NextPage = () => (
                     </g>
                     </svg>
                   </i>
-                  <h4 class="fs-16">Entertainment</h4>
+                  <h4 className="fs-16">Entertainment</h4>
                 </div>
-                <div class="accordion-content" data-content>
-                  <div class="accordion-content-wrapper">
-                    <ul class="list-group list-group-minimal">
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i class="icon-check2 fs-20"></i>
+                <div className="accordion-content" data-content>
+                  <div className="accordion-content-wrapper">
+                    <ul className="list-group list-group-minimal">
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bidet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Bathroom <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Toilet <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Free toiletries <i className="icon-check2 fs-20"></i>
                       </li>
-                      <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i class="icon-check2 fs-20"></i>
+                      <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Hairdryer <i className="icon-check2 fs-20"></i>
                       </li>
                     </ul>
                   </div>

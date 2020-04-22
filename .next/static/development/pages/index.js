@@ -756,13 +756,58 @@ var Home = function Home() {
       lineNumber: 16,
       columnNumber: 5
     }
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "/assets/css/style.css",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 5
+    }
   }), __jsx("script", {
     type: "text/javascript",
-    src: "js/jquery-3.4.1.js",
+    src: "/assets/js/jquery-3.4.1.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18,
+      columnNumber: 5
+    }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "/assets/js/vendor.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 5
+    }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "/assets/js/app.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 5
+    }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "/assets/js/shopify.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 5
+    }
+  }), __jsx("script", {
+    type: "text/javascript",
+    src: "//code.tidio.co/bvmdkbiydd0dddefe6od2ym6lrtkl9te.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
       columnNumber: 5
     }
   }), __jsx("link", {
@@ -772,7 +817,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 24,
       columnNumber: 5
     }
   }), __jsx("script", {
@@ -781,7 +826,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 25,
       columnNumber: 5
     }
   }), __jsx("script", {
@@ -790,7 +835,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 26,
       columnNumber: 5
     }
   })), __jsx("header", {
@@ -801,7 +846,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 31,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -809,7 +854,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 32,
       columnNumber: 7
     }
   }, __jsx("nav", {
@@ -817,7 +862,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 33,
       columnNumber: 9
     }
   }, __jsx("a", {
@@ -826,7 +871,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 34,
       columnNumber: 11
     }
   }, __jsx("img", {
@@ -836,7 +881,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 35,
       columnNumber: 13
     }
   }), __jsx("img", {
@@ -846,7 +891,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 36,
       columnNumber: 13
     }
   })), __jsx("button", {
@@ -860,7 +905,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 11
     }
   }, __jsx("span", {
@@ -868,14 +913,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 213
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 238
     }
   }))), __jsx("div", {
@@ -884,7 +929,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 40,
       columnNumber: 11
     }
   }, __jsx("ul", {
@@ -892,7 +937,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 41,
       columnNumber: 13
     }
   }, __jsx("li", {
@@ -900,7 +945,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 42,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -910,7 +955,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 17
     }
   }, "\u9996\u9875")), __jsx("li", {
@@ -918,7 +963,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 48,
       columnNumber: 4
     }
   }, __jsx("a", {
@@ -932,7 +977,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 49,
       columnNumber: 15
     }
   }, "\u6838\u5FC3\u8BFE\u7A0B"), __jsx("div", {
@@ -941,7 +986,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 52,
       columnNumber: 18
     }
   }, __jsx("a", {
@@ -950,21 +995,21 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 53,
       columnNumber: 17
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 54,
       columnNumber: 19
     }
   }, "CFAI\u7EA7 \u767E\u65F6\u73EDPlus"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 55,
       columnNumber: 19
     }
   }, "\u7B7E\u7EA6\u4FDD\u8FC7 | \u7EBF\u4E0A\u7EBF\u4E0B | \u5317\u7F8E\u540C\u5F00")), __jsx("div", {
@@ -972,7 +1017,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 57,
       columnNumber: 17
     }
   }))), __jsx("li", {
@@ -980,7 +1025,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 62,
       columnNumber: 14
     }
   }, __jsx("a", {
@@ -994,7 +1039,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 63,
       columnNumber: 15
     }
   }, "\u62A5\u540D\u8BFE\u7A0B"), __jsx("div", {
@@ -1003,7 +1048,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 66,
       columnNumber: 18
     }
   }, __jsx("a", {
@@ -1013,21 +1058,21 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 68,
       columnNumber: 1
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 69,
       columnNumber: 19
     }
   }, "\u5B66\u5458\u7CFB\u7EDF"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 70,
       columnNumber: 19
     }
   }, "\u5DF2\u7ECF\u62A5\u540D\u8BFE\u7A0B\u7684\u540C\u5B66")), __jsx("a", {
@@ -1037,21 +1082,21 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 73,
       columnNumber: 17
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 74,
       columnNumber: 19
     }
   }, "\u5927\u591A\u4F26\u591A\u5730\u533A"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 75,
       columnNumber: 19
     }
   }, "\u5305\u62EC\u6ED1\u94C1\u5362 | \u7EBF\u4E0B\u53CA\u7EBF\u4E0B\u8BFE\u7A0B")), __jsx("div", {
@@ -1059,7 +1104,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 77,
       columnNumber: 17
     }
   }), __jsx("a", {
@@ -1069,21 +1114,21 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 78,
       columnNumber: 17
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 79,
       columnNumber: 19
     }
   }, "\u963F\u5C14\u4F2F\u5854\u5730\u533A"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 80,
       columnNumber: 19
     }
   }, "\u7EBF\u4E0B\u53CA\u7EBF\u4E0B\u8BFE\u7A0B")))), __jsx("li", {
@@ -1091,7 +1136,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 86,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -1101,7 +1146,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 87,
       columnNumber: 16
     }
   }, "1\u5BF91\u6C42\u804C\u670D\u52A1")), __jsx("li", {
@@ -1109,7 +1154,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 92,
       columnNumber: 16
     }
   }, __jsx("a", {
@@ -1120,7 +1165,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 93,
       columnNumber: 16
     }
   }, "\u5C97\u4F4D\u76F4\u901A\u8F66")), __jsx("li", {
@@ -1128,7 +1173,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 99,
       columnNumber: 3
     }
   }, __jsx("a", {
@@ -1142,7 +1187,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 100,
       columnNumber: 15
     }
   }, "\u8054\u7CFB\u6211\u4EEC"), __jsx("div", {
@@ -1151,37 +1196,12 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 103,
       columnNumber: 18
     }
   }, __jsx("a", {
     className: "dropdown-item",
     href: "career.html",
-    target: "_blank",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 19
-    }
-  }, "\u52A0\u5165\u6211\u4EEC")), __jsx("div", {
-    className: "dropdown-divider",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 17
-    }
-  }), __jsx("a", {
-    className: "dropdown-item",
-    href: "contacts.html",
     target: "_blank",
     __self: _this,
     __source: {
@@ -1196,12 +1216,37 @@ var Home = function Home() {
       lineNumber: 105,
       columnNumber: 19
     }
+  }, "\u52A0\u5165\u6211\u4EEC")), __jsx("div", {
+    className: "dropdown-divider",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107,
+      columnNumber: 17
+    }
+  }), __jsx("a", {
+    className: "dropdown-item",
+    href: "contacts.html",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109,
+      columnNumber: 19
+    }
   }, "\u8054\u7CFB\u6211\u4EEC"))))), __jsx("ul", {
     className: "navbar-nav align-items-center mr-0",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 117,
       columnNumber: 13
     }
   }, __jsx("li", {
@@ -1209,7 +1254,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 118,
       columnNumber: 15
     }
   }, __jsx("a", {
@@ -1219,7 +1264,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 119,
       columnNumber: 17
     }
   }, "Powered by Easy Group"))))))), __jsx("section", {
@@ -1227,7 +1272,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 130,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1235,43 +1280,43 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127,
-      columnNumber: 11
+      lineNumber: 131,
+      columnNumber: 7
     }
   }, __jsx("div", {
     className: "gallery-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
-      columnNumber: 13
+      lineNumber: 132,
+      columnNumber: 9
     }
   }, __jsx("div", {
     className: "swiper-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
-      columnNumber: 15
+      lineNumber: 133,
+      columnNumber: 11
     }
   }, __jsx("div", {
     className: "swiper-slide vh-100",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
-      columnNumber: 17
+      lineNumber: 134,
+      columnNumber: 13
     }
   }, __jsx("div", {
     className: "image image-overlay",
     style: {
-      backgroundImage: 'url(/assets/images/landing/landing-1.jpg)'
+      backgroundImage: 'url(assets/images/landing/landing-1.jpg)'
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
-      columnNumber: 19
+      lineNumber: 135,
+      columnNumber: 15
     }
   }), __jsx("div", {
     className: "caption text-white",
@@ -1279,24 +1324,24 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
-      columnNumber: 19
+      lineNumber: 139,
+      columnNumber: 15
     }
   }, __jsx("div", {
     className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
-      columnNumber: 21
+      lineNumber: 140,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "row justify-content-between vh-100",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 23
+      lineNumber: 141,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "col-lg-8 align-self-center text-white text-shadow",
@@ -1304,24 +1349,24 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
-      columnNumber: 25
+      lineNumber: 142,
+      columnNumber: 19
     }
   }, __jsx("span", {
     className: "eyebrow text-white mb-1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
-      columnNumber: 27
+      lineNumber: 143,
+      columnNumber: 21
     }
   }, "Career Consulting Services"), __jsx("h1", {
     className: "display-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
-      columnNumber: 27
+      lineNumber: 144,
+      columnNumber: 21
     }
   }, "\u4E00\u7AD9\u5F0F\u7559\u5B66\u751F\u804C\u4E1A\u670D\u52A1"), __jsx("a", {
     href: "contacts.html",
@@ -1329,64 +1374,64 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
-      columnNumber: 27
+      lineNumber: 146,
+      columnNumber: 21
     }
   }, "\u8054\u7CFB\u6211\u4EEC")), __jsx("div", {
     className: "col-lg-4 align-self-end",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
-      columnNumber: 25
+      lineNumber: 148,
+      columnNumber: 19
     }
   }, __jsx("div", {
     className: "row gutter-1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
-      columnNumber: 27
+      lineNumber: 149,
+      columnNumber: 21
     }
   }, __jsx("div", {
     className: "col-6 text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
-      columnNumber: 29
+      lineNumber: 151,
+      columnNumber: 22
     }
   }, __jsx("div", {
     className: "equal",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
-      columnNumber: 31
+      lineNumber: 152,
+      columnNumber: 25
     }
   }, __jsx("div", {
     className: "bordered",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
-      columnNumber: 33
+      lineNumber: 153,
+      columnNumber: 27
     }
   }, __jsx("div", {
     className: "equal-footer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
-      columnNumber: 35
+      lineNumber: 154,
+      columnNumber: 56
     }
   }, __jsx("div", {
     className: "component-example",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
-      columnNumber: 37
+      lineNumber: 155,
+      columnNumber: 31
     }
   }, __jsx("a", {
     className: "popup-youtube",
@@ -1394,145 +1439,145 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
-      columnNumber: 39
+      lineNumber: 157,
+      columnNumber: 16
     }
   }, "\u89C2\u770B\u54C1\u724C\u89C6\u9891", __jsx("i", {
     className: "icon-play2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
-      columnNumber: 125
+      lineNumber: 157,
+      columnNumber: 102
     }
   }))))))), __jsx("div", {
     className: "col-6 text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
-      columnNumber: 29
+      lineNumber: 165,
+      columnNumber: 23
     }
   }, __jsx("div", {
     className: "equal",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
-      columnNumber: 31
+      lineNumber: 166,
+      columnNumber: 25
     }
   }, __jsx("div", {
     className: "bordered",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
-      columnNumber: 33
+      lineNumber: 167,
+      columnNumber: 27
     }
   }, __jsx("div", {
     className: "equal-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
-      columnNumber: 35
+      lineNumber: 168,
+      columnNumber: 29
     }
   }, __jsx("h4", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
-      columnNumber: 37
+      lineNumber: 169,
+      columnNumber: 31
     }
   }, "\u59CB\u4E8E2017")), __jsx("div", {
     className: "equal-footer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
-      columnNumber: 35
+      lineNumber: 171,
+      columnNumber: 29
     }
   }, __jsx("span", {
     className: "text-muted",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
-      columnNumber: 37
+      lineNumber: 172,
+      columnNumber: 31
     }
   }, "\u5317\u7F8E\u6C42\u804C\u98CE\u5411\u6807"))))), __jsx("div", {
     className: "col-6 text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
-      columnNumber: 29
+      lineNumber: 177,
+      columnNumber: 23
     }
   }, __jsx("div", {
     className: "equal",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
-      columnNumber: 31
+      lineNumber: 178,
+      columnNumber: 25
     }
   }, __jsx("div", {
     className: "bordered",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
-      columnNumber: 33
+      lineNumber: 179,
+      columnNumber: 27
     }
   }, __jsx("div", {
     className: "equal-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
-      columnNumber: 35
+      lineNumber: 180,
+      columnNumber: 29
     }
   }, __jsx("h4", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
-      columnNumber: 37
+      lineNumber: 181,
+      columnNumber: 31
     }
   }, "200+ \u7CBE\u82F1\u5BFC\u5E08")), __jsx("div", {
     className: "equal-footer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
-      columnNumber: 35
+      lineNumber: 183,
+      columnNumber: 29
     }
   }, __jsx("span", {
     className: "text-muted",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
-      columnNumber: 37
+      lineNumber: 184,
+      columnNumber: 31
     }
   }, "\u4E3A\u7559\u5B66\u751F\u7684\u5C31\u4E1A\u4FDD\u9A7E\u62A4\u822A"))))))))))), __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
-      columnNumber: 17
+      lineNumber: 198,
+      columnNumber: 13
     }
   }, __jsx("div", {
     className: "image image-overlay",
     style: {
-      backgroundImage: 'url(/assets/images/landing/jobboard-2.jpg)'
+      backgroundImage: 'url(assets/images/landing/jobboard-2.jpg)'
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
-      columnNumber: 19
+      lineNumber: 199,
+      columnNumber: 15
     }
   }), __jsx("div", {
     className: "caption text-white",
@@ -1540,48 +1585,48 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
-      columnNumber: 19
+      lineNumber: 201,
+      columnNumber: 15
     }
   }, __jsx("div", {
     className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
-      columnNumber: 21
+      lineNumber: 202,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "row justify-content-center align-items-center vh-90",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
-      columnNumber: 23
+      lineNumber: 203,
+      columnNumber: 19
     }
   }, __jsx("div", {
     className: "col-md-10  col-lg-8 text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
-      columnNumber: 25
+      lineNumber: 204,
+      columnNumber: 21
     }
   }, __jsx("span", {
     className: "eyebrow mb-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 191,
-      columnNumber: 27
+      lineNumber: 205,
+      columnNumber: 23
     }
   }, "Jobs.ezcareer.ca"), __jsx("h1", {
     className: "display-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
-      columnNumber: 27
+      lineNumber: 206,
+      columnNumber: 23
     }
   }, "\u9002\u5408\u7559\u5B66\u751F\u7684Job Board"), __jsx("a", {
     href: "http://jobs.ezcareer.ca",
@@ -1590,27 +1635,27 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193,
-      columnNumber: 27
+      lineNumber: 207,
+      columnNumber: 23
     }
   }, "\u8FDB\u5165\u5B98\u7F51")))))), __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
-      columnNumber: 17
+      lineNumber: 213,
+      columnNumber: 2
     }
   }, __jsx("div", {
     className: "image image-overlay",
     style: {
-      backgroundImage: 'url(/assets/images/landing/landing-2.jpg)'
+      backgroundImage: 'url(assets/images/landing/landing-2.jpg)'
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
-      columnNumber: 19
+      lineNumber: 214,
+      columnNumber: 15
     }
   }), __jsx("div", {
     className: "caption text-white",
@@ -1618,48 +1663,48 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
-      columnNumber: 19
+      lineNumber: 216,
+      columnNumber: 15
     }
   }, __jsx("div", {
     className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
-      columnNumber: 21
+      lineNumber: 217,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "row justify-content-center align-items-center vh-90",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 204,
-      columnNumber: 23
+      lineNumber: 218,
+      columnNumber: 19
     }
   }, __jsx("div", {
     className: "col-md-10 col-lg-8 text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205,
-      columnNumber: 25
+      lineNumber: 219,
+      columnNumber: 21
     }
   }, __jsx("span", {
     className: "eyebrow mb-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
-      columnNumber: 27
+      lineNumber: 220,
+      columnNumber: 23
     }
   }, "VIP Program"), __jsx("h1", {
     className: "display-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207,
-      columnNumber: 27
+      lineNumber: 221,
+      columnNumber: 23
     }
   }, "\u79C1\u4EBA\u8BA2\u5236\u6C42\u804C\u7279\u8BAD\u8BA1\u5212"), __jsx("a", {
     href: "http://www.ezcareer.ca/vip.html",
@@ -1668,27 +1713,27 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
-      columnNumber: 27
+      lineNumber: 222,
+      columnNumber: 23
     }
   }, "\u4E86\u89E3\u66F4\u591A")))))), __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
-      columnNumber: 17
+      lineNumber: 228,
+      columnNumber: 14
     }
   }, __jsx("div", {
     className: "image image-overlay",
     style: {
-      backgroundImage: 'url(/assets/images/landing/learning-1-min.jpg)'
+      backgroundImage: 'url(assets/images/landing/learning-1-min.jpg)'
     },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
-      columnNumber: 19
+      lineNumber: 229,
+      columnNumber: 15
     }
   }), __jsx("div", {
     className: "caption text-white",
@@ -1696,48 +1741,48 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
-      columnNumber: 19
+      lineNumber: 231,
+      columnNumber: 15
     }
   }, __jsx("div", {
     className: "container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
-      columnNumber: 21
+      lineNumber: 232,
+      columnNumber: 17
     }
   }, __jsx("div", {
     className: "row justify-content-center align-items-center vh-90",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
-      columnNumber: 23
+      lineNumber: 233,
+      columnNumber: 19
     }
   }, __jsx("div", {
     className: "col-md-10 col-lg-8 text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
-      columnNumber: 25
+      lineNumber: 234,
+      columnNumber: 21
     }
   }, __jsx("span", {
     className: "eyebrow mb-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
-      columnNumber: 27
+      lineNumber: 235,
+      columnNumber: 23
     }
   }, "Tutoring Services"), __jsx("h1", {
     className: "display-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222,
-      columnNumber: 27
+      lineNumber: 236,
+      columnNumber: 23
     }
   }, "\u8BA9\u4F60\u7684GPA\u8F7B\u677E4.0"), __jsx("a", {
     href: "https://ez4edu.com/",
@@ -1746,90 +1791,90 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
-      columnNumber: 27
+      lineNumber: 237,
+      columnNumber: 23
     }
   }, "\u8FDB\u5165\u5B98\u7F51")))))))), __jsx("div", {
     className: "gallery-thumbs",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231,
-      columnNumber: 13
+      lineNumber: 248,
+      columnNumber: 9
     }
   }, __jsx("div", {
     className: "swiper-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
-      columnNumber: 15
+      lineNumber: 249,
+      columnNumber: 11
     }
   }, __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233,
-      columnNumber: 17
+      lineNumber: 250,
+      columnNumber: 13
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234,
-      columnNumber: 19
+      lineNumber: 251,
+      columnNumber: 15
     }
   }, "\u804C\u4E1A\u54A8\u8BE2")), __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236,
-      columnNumber: 17
+      lineNumber: 253,
+      columnNumber: 13
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237,
-      columnNumber: 19
+      lineNumber: 254,
+      columnNumber: 15
     }
   }, "\u5C97\u4F4D\u76F4\u901A\u8F66")), __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
-      columnNumber: 17
+      lineNumber: 256,
+      columnNumber: 13
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240,
-      columnNumber: 19
+      lineNumber: 257,
+      columnNumber: 15
     }
   }, "VIP Program")), __jsx("div", {
     className: "swiper-slide",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
-      columnNumber: 17
+      lineNumber: 259,
+      columnNumber: 13
     }
   }, __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243,
-      columnNumber: 19
+      lineNumber: 260,
+      columnNumber: 15
     }
   }, "\u8BFE\u7A0B\u8F85\u5BFC")))))), __jsx("section", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 251,
+      lineNumber: 268,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1837,7 +1882,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 252,
+      lineNumber: 269,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -1845,7 +1890,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 270,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1853,14 +1898,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 254,
+      lineNumber: 271,
       columnNumber: 15
     }
   }, __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255,
+      lineNumber: 272,
       columnNumber: 17
     }
   }, "Easy career, better ", __jsx("span", {
@@ -1870,7 +1915,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255,
+      lineNumber: 272,
       columnNumber: 41
     }
   }, "job."))), __jsx("div", {
@@ -1878,7 +1923,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257,
+      lineNumber: 274,
       columnNumber: 15
     }
   }, __jsx("p", {
@@ -1886,7 +1931,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258,
+      lineNumber: 275,
       columnNumber: 17
     }
   }, "EASY CAREER\u662F\u4E00\u5BB6\u5728\u7EBF\u804C\u4E1A\u6559\u80B2\u673A\u6784\uFF0C\u516C\u53F8\u603B\u90E8\u4F4D\u4E8E\u591A\u4F26\u591A\u5E02\u5E02\u4E2D\u5FC3\uFF0C\u662F\u52A0\u62FF\u5927\u7B2C\u4E00\u6559\u80B2\u54C1\u724C Easy Group(\u6613\u7EF4\u6559\u80B2\u96C6\u56E2)\u65D7\u4E0B\u7684\u5B50\u516C\u53F8\u4E4B\u4E00\uFF0C\u81F4\u529B\u4E8E\u5E2E\u52A9\u5168\u7403\u5927\u5B66\u751F\u548C\u5728\u804C\u7CBE\u82F1\uFF0C\u63D0\u4F9B\u4E00\u7AD9\u5F0F\u7684\u5C31\u4E1A\u89E3\u51B3\u65B9\u6848\u3002\u901A\u8FC7\u72EC\u7ACB\u81EA\u4E3B\u7814\u53D1\u7684\u804C\u4E1A\u6280\u80FD\u57F9\u8BAD\u4EA7\u54C1\u548C\u4E00\u5BF9\u4E00\u4F53\u7CFB\u5316\u54A8\u8BE2\u670D\u52A1\uFF0C\u5168\u65B9\u4F4D\u63D0\u5347\u5B66\u5458\u80FD\u529B\u4E0E\u80CC\u666F\u3002\u5728\u91D1\u878D\u3001\u54A8\u8BE2\u3001\u79D1\u6280\u3001\u5FEB\u6D88\u3001\u6570\u636E\u3001\u5E02\u573A\u7B49\u4F17\u591A\u70ED\u95E8\u884C\u4E1A\uFF0C\u52A9\u529B\u5168\u7403\u5927\u5B66\u751F\u5165\u9A7B\u5168\u7403\u524D\u6CBF\u4F01\u4E1A\u3002"))), __jsx("div", {
@@ -1894,7 +1939,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261,
+      lineNumber: 278,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1904,7 +1949,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 279,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1912,7 +1957,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 280,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -1920,7 +1965,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264,
+      lineNumber: 281,
       columnNumber: 19
     }
   }), __jsx("h6", {
@@ -1928,7 +1973,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 282,
       columnNumber: 19
     }
   }, "Learn Essential Skills"), __jsx("h4", {
@@ -1936,14 +1981,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266,
+      lineNumber: 283,
       columnNumber: 19
     }
   }, "\u804C\u4E1A\u5FC5\u5907\u6280\u80FD"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267,
+      lineNumber: 284,
       columnNumber: 19
     }
   }, "\u7ED3\u5408\u884C\u4E1A\u5B9E\u6218\u9879\u76EE\uFF0C\u5728\u8BFE\u7A0B\u4E2D\u719F\u7EC3\u638C\u63E1\u4E0D\u540C\u884C\u4E1A\u5DE5\u4F5C\u4E2D\u6240\u9700\u8981\u7684\u5404\u79CD\u6280\u80FD\u3002\u7075\u6D3B\u7684\u7EBF\u4E0A\u52A0\u7EBF\u4E0B\u8BFE\u7A0B\u6A21\u5F0F\u8BA9\u7528\u6237\u5145\u5206\u5229\u7528\u81EA\u5DF1\u7684\u65F6\u95F4\u53BB\u5B66\u4E60\u3002"))), __jsx("div", {
@@ -1954,7 +1999,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270,
+      lineNumber: 287,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1962,7 +2007,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271,
+      lineNumber: 288,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -1970,7 +2015,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272,
+      lineNumber: 289,
       columnNumber: 19
     }
   }), __jsx("h6", {
@@ -1978,7 +2023,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 273,
+      lineNumber: 290,
       columnNumber: 19
     }
   }, "100% Tailored Training"), __jsx("h4", {
@@ -1986,14 +2031,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274,
+      lineNumber: 291,
       columnNumber: 19
     }
   }, "\u6C42\u804C\u6838\u5FC3\u80FD\u529B"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 275,
+      lineNumber: 292,
       columnNumber: 19
     }
   }, "1\u5BF91\u6C42\u804C\u7279\u8BAD\u8BA1\u5212\uFF0C\u4EE5\u4E0B\u7B80\u79F0VIP Program\uFF0C\u65E8\u5728\u4E3A\u5B66\u751F\u63D0\u4F9B\u5B9A\u5236\u5316\u7684\uFF0C\u7CFB\u7EDF\u6027\u5730\u4E00\u7AD9\u5F0F\u6C42\u804C\u6559\u80B2\u54A8\u8BE2\u670D\u52A1,\u9488\u5BF9\u6027\u5730\u51C6\u5907\u5373\u5C06\u5F00\u59CB\u7684\u804C\u573A\u751F\u6DAF\u3002"))), __jsx("div", {
@@ -2003,7 +2048,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 278,
+      lineNumber: 295,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2011,7 +2056,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 279,
+      lineNumber: 296,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -2019,7 +2064,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280,
+      lineNumber: 297,
       columnNumber: 19
     }
   }), __jsx("h6", {
@@ -2027,7 +2072,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281,
+      lineNumber: 298,
       columnNumber: 19
     }
   }, "Guarantee Offer Program"), __jsx("h4", {
@@ -2035,14 +2080,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 282,
+      lineNumber: 299,
       columnNumber: 19
     }
   }, "\u4FDDOffer\u5168\u804C/\u5B9E\u4E60\u9879\u76EE"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 283,
+      lineNumber: 300,
       columnNumber: 19
     }
   }, "\u52A9\u7533\u5317\u7F8E\u77E5\u540D\u5927\u516C\u53F8\uFF0C\u521B\u6295\u516C\u53F8\uFF0C\u4E16\u754C\u4E94\u767E\u5F3A\u7B49\u3002\u6839\u636E\u5B66\u751F\u80FD\u529B\u7279\u70B9\u53CA\u4E2A\u4EBA\u9700\u6C42\uFF0C\u5E2E\u52A9\u5176\u5B8C\u6210\u5404\u7C7B\u578B\u804C\u4F4D\u7533\u8BF7\u3002")))))), __jsx("section", {
@@ -2050,7 +2095,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 528,
+      lineNumber: 545,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2058,7 +2103,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 529,
+      lineNumber: 546,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -2066,7 +2111,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 530,
+      lineNumber: 547,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2074,7 +2119,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 531,
+      lineNumber: 548,
       columnNumber: 15
     }
   }, __jsx("h2", {
@@ -2082,14 +2127,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532,
+      lineNumber: 549,
       columnNumber: 17
     }
   }, "VIP Program ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532,
+      lineNumber: 549,
       columnNumber: 48
     }
   }), __jsx("b", {
@@ -2099,14 +2144,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532,
+      lineNumber: 549,
       columnNumber: 54
     }
   }, "\u5B9A\u5236"), "\u4E8E\u4F60\u7684", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532,
+      lineNumber: 549,
       columnNumber: 93
     }
   }), "\u5C5E\u6C42\u804C\u8BA1\u5212"), __jsx("ul", {
@@ -2114,7 +2159,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 533,
+      lineNumber: 550,
       columnNumber: 17
     }
   }, __jsx("li", {
@@ -2122,7 +2167,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 534,
+      lineNumber: 551,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2130,14 +2175,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 535,
+      lineNumber: 552,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 536,
+      lineNumber: 553,
       columnNumber: 21
     }
   }, "\u884C\u4E1A\u8D8B\u52BF\u524D\u77BB Industrial Insights")), __jsx("li", {
@@ -2145,7 +2190,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 538,
+      lineNumber: 555,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2153,14 +2198,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 539,
+      lineNumber: 556,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 540,
+      lineNumber: 557,
       columnNumber: 21
     }
   }, "\u6C42\u804C\u89C4\u5212 Consultation")), __jsx("li", {
@@ -2168,7 +2213,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 542,
+      lineNumber: 559,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2176,14 +2221,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 543,
+      lineNumber: 560,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 544,
+      lineNumber: 561,
       columnNumber: 21
     }
   }, "\u5C65\u5386\u7CBE\u4FEE Profile Improvement")), __jsx("li", {
@@ -2191,7 +2236,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 546,
+      lineNumber: 563,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2199,14 +2244,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 547,
+      lineNumber: 564,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 548,
+      lineNumber: 565,
       columnNumber: 21
     }
   }, "\u9762\u8BD5\u76F4\u901A\u8F66 Interview Package")), __jsx("li", {
@@ -2214,7 +2259,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 550,
+      lineNumber: 567,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2222,14 +2267,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 551,
+      lineNumber: 568,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 552,
+      lineNumber: 569,
       columnNumber: 21
     }
   }, "\u6C42\u804C\u793E\u4EA4 Networking")), __jsx("li", {
@@ -2237,7 +2282,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 554,
+      lineNumber: 571,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2245,14 +2290,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 555,
+      lineNumber: 572,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 556,
+      lineNumber: 573,
       columnNumber: 21
     }
   }, "\u5728\u7EBF\u8BFE\u5802 Hard Skills Training")), __jsx("li", {
@@ -2260,7 +2305,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 558,
+      lineNumber: 575,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2268,14 +2313,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 559,
+      lineNumber: 576,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 560,
+      lineNumber: 577,
       columnNumber: 21
     }
   }, "\u540D\u4F01\u76F4\u63A8 Job Placement Opportunity"))), __jsx("a", {
@@ -2283,7 +2328,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 563,
+      lineNumber: 580,
       columnNumber: 17
     }
   }, __jsx("button", {
@@ -2292,7 +2337,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 564,
+      lineNumber: 581,
       columnNumber: 19
     }
   }, "\u7ACB\u523B\u54A8\u8BE2 ", __jsx("i", {
@@ -2300,7 +2345,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 564,
+      lineNumber: 581,
       columnNumber: 102
     }
   })))), __jsx("div", {
@@ -2308,7 +2353,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 566,
+      lineNumber: 583,
       columnNumber: 15
     }
   }, __jsx("ul", {
@@ -2316,7 +2361,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 567,
+      lineNumber: 584,
       columnNumber: 17
     }
   }, __jsx("li", {
@@ -2325,7 +2370,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 568,
+      lineNumber: 585,
       columnNumber: 19
     }
   }, __jsx("figure", {
@@ -2333,7 +2378,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 569,
+      lineNumber: 586,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -2344,7 +2389,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 570,
+      lineNumber: 587,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -2352,14 +2397,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 571,
+      lineNumber: 588,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 572,
+      lineNumber: 589,
       columnNumber: 27
     }
   }, "VIP Mentorship Program"))))), __jsx("li", {
@@ -2368,7 +2413,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 577,
+      lineNumber: 594,
       columnNumber: 19
     }
   }, __jsx("figure", {
@@ -2376,7 +2421,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 578,
+      lineNumber: 595,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -2387,7 +2432,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 579,
+      lineNumber: 596,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -2395,14 +2440,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 580,
+      lineNumber: 597,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 581,
+      lineNumber: 598,
       columnNumber: 27
     }
   }, "Profile Improvement Package"))))), __jsx("li", {
@@ -2411,7 +2456,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 586,
+      lineNumber: 603,
       columnNumber: 19
     }
   }, __jsx("figure", {
@@ -2419,7 +2464,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 587,
+      lineNumber: 604,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -2430,7 +2475,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 588,
+      lineNumber: 605,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -2438,104 +2483,17 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 589,
+      lineNumber: 606,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 590,
+      lineNumber: 607,
       columnNumber: 27
     }
   }, "Interview Package")))))))))), __jsx("section", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 602,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "container",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 603,
-      columnNumber: 11
-    }
-  }, __jsx("div", {
-    className: "row justify-content-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 604,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "col-md-6 text-center",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 605,
-      columnNumber: 15
-    }
-  }, __jsx("span", {
-    className: "eyebrow mb-1 text-primary",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 606,
-      columnNumber: 17
-    }
-  }, "Essential Courses"), __jsx("h2", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 607,
-      columnNumber: 17
-    }
-  }, "\u70ED\u95E8\u6280\u80FD\u8BFE\u7A0B"))), __jsx("div", {
-    className: "row justify-content-between",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 610,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    id: "product-component-c3adc591c15",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 611,
-      columnNumber: 15
-    }
-  }), __jsx("div", {
-    id: "product-component-2dd6bfb8512",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 612,
-      columnNumber: 15
-    }
-  }), __jsx("div", {
-    id: "product-component-7c9f281128d",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 613,
-      columnNumber: 15
-    }
-  }), __jsx("div", {
-    id: "product-component-f73cb377666",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 614,
-      columnNumber: 15
-    }
-  })))), __jsx("section", {
-    className: "bg-dark-ezc text-white",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -2551,7 +2509,7 @@ var Home = function Home() {
       columnNumber: 11
     }
   }, __jsx("div", {
-    className: "row align-items-center",
+    className: "row justify-content-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -2559,25 +2517,112 @@ var Home = function Home() {
       columnNumber: 13
     }
   }, __jsx("div", {
-    className: "col-md-4",
+    className: "col-md-6 text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 622,
       columnNumber: 15
     }
-  }, __jsx("h2", {
+  }, __jsx("span", {
+    className: "eyebrow mb-1 text-primary",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 623,
       columnNumber: 17
     }
+  }, "Essential Courses"), __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 624,
+      columnNumber: 17
+    }
+  }, "\u70ED\u95E8\u6280\u80FD\u8BFE\u7A0B"))), __jsx("div", {
+    className: "row justify-content-between",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 627,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    id: "product-component-c3adc591c15",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 628,
+      columnNumber: 15
+    }
+  }), __jsx("div", {
+    id: "product-component-2dd6bfb8512",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 629,
+      columnNumber: 15
+    }
+  }), __jsx("div", {
+    id: "product-component-7c9f281128d",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 630,
+      columnNumber: 15
+    }
+  }), __jsx("div", {
+    id: "product-component-f73cb377666",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 631,
+      columnNumber: 15
+    }
+  })))), __jsx("section", {
+    className: "bg-dark-ezc text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 636,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 637,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    className: "row align-items-center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 638,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "col-md-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 639,
+      columnNumber: 15
+    }
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 640,
+      columnNumber: 17
+    }
   }, "\u8FD9\u91CC\u662F", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 623,
+      lineNumber: 640,
       columnNumber: 24
     }
   }), "\u4F60\u8DDD\u79BB", __jsx("span", {
@@ -2587,21 +2632,21 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 623,
+      lineNumber: 640,
       columnNumber: 33
     }
   }, "\u9AD8\u85AAOffer"), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 623,
+      lineNumber: 640,
       columnNumber: 80
     }
   }), "\u6700\u8FD1\u7684\u5730\u65B9"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 624,
+      lineNumber: 641,
       columnNumber: 17
     }
   }, "EASY CAREER\u521B\u7ACB\u4E8E2017\u5E74\u521D\uFF0C\u81F4\u529B\u4E8E\u6574\u5408\u5168\u7403\u5404\u884C\u4E1A\u7684\u804C\u573A\u7CBE\u82F1\uFF0C\u4E3A\u5927\u5B66\u751F\u63D0\u4F9B\u4F53\u7CFB\u5316\uFF0C\u5B9A\u5236\u5316\u7684\u804C\u4E1A\u6559\u80B2\uFF0C\u901A\u8FC71\u5BF91\u3001\u591A\u5BF91\u548C\u73ED\u8BFE\u5B9E\u65F6\u5728\u7EBF\u89C6\u9891/\u76F4\u64AD\u5B66\u4E60\u5E73\u53F0\uFF0C\u5C06\u5168\u7403\u5927\u5B66\u751F\u548C\u804C\u573A\u7CBE\u82F1\u8FDB\u884C\u5BF9\u63A5\u3002 \u6211\u4EEC\u4ECE\u5E02\u573A\u7684\u89D2\u5EA6\u548C\u5BA2\u6237\u7684\u9700\u6C42\u51FA\u53D1\uFF0C\u4E3A\u5B66\u5458\u5EFA\u7ACB\u5B8C\u5584\u7684\u804C\u4E1A\u89C4\u5212\u65B9\u6848\u53CA\u4F53\u7CFB\u5316\u7684\u8BFE\u7A0B\u89C4\u5212\uFF0C\u4EE5\u63D0\u5347\u5B66\u5458\u804C\u573A\u6838\u5FC3\u7ADE\u4E89\u529B\u4E3A\u4E2D\u5FC3\uFF0C\u5F00\u5C55\u9488\u5BF9\u6027\u7684\u8F85\u5BFC\u4E0E\u57F9\u8BAD\uFF0C\u5E2E\u52A9\u5B66\u5458\u987A\u5229\u8FDB\u5165\u76EE\u6807\u884C\u4E1A\u4E0E\u516C\u53F8\u5C97\u4F4D\u3002")), __jsx("div", {
@@ -2609,7 +2654,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 627,
+      lineNumber: 644,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2617,7 +2662,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 628,
+      lineNumber: 645,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -2625,7 +2670,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 629,
+      lineNumber: 646,
       columnNumber: 19
     }
   }, __jsx("h4", {
@@ -2633,7 +2678,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 630,
+      lineNumber: 647,
       columnNumber: 21
     }
   }, "\u7B7E\u7EA6\u7CBE\u82F1\u5BFC\u5E08\u6DD8\u6C70\u7387"), __jsx("div", {
@@ -2641,7 +2686,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 631,
+      lineNumber: 648,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2649,7 +2694,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 632,
+      lineNumber: 649,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -2664,14 +2709,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 633,
+      lineNumber: 650,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 633,
+      lineNumber: 650,
       columnNumber: 154
     }
   }, "70%"))))), __jsx("div", {
@@ -2679,7 +2724,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 637,
+      lineNumber: 654,
       columnNumber: 19
     }
   }, __jsx("h4", {
@@ -2687,7 +2732,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 638,
+      lineNumber: 655,
       columnNumber: 21
     }
   }, "\u56DB\u4E2A\u6708\u5185\u83B7\u5F97Offer\u6210\u529F\u7387"), __jsx("div", {
@@ -2695,7 +2740,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 639,
+      lineNumber: 656,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2703,7 +2748,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 640,
+      lineNumber: 657,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -2718,14 +2763,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 641,
+      lineNumber: 658,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 641,
+      lineNumber: 658,
       columnNumber: 156
     }
   }, "87.3%"))))), __jsx("div", {
@@ -2733,7 +2778,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 645,
+      lineNumber: 662,
       columnNumber: 19
     }
   }, __jsx("h4", {
@@ -2741,7 +2786,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 646,
+      lineNumber: 663,
       columnNumber: 21
     }
   }, "\u7528\u6237\u6EE1\u610F\u5EA6"), __jsx("div", {
@@ -2749,7 +2794,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 647,
+      lineNumber: 664,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2757,7 +2802,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 648,
+      lineNumber: 665,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -2772,14 +2817,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 649,
+      lineNumber: 666,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 649,
+      lineNumber: 666,
       columnNumber: 156
     }
   }, "100%")))))))))), __jsx("section", {
@@ -2793,7 +2838,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 659,
+      lineNumber: 676,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2801,7 +2846,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 660,
+      lineNumber: 677,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -2809,7 +2854,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 661,
+      lineNumber: 678,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2817,7 +2862,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 662,
+      lineNumber: 679,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -2825,21 +2870,21 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 663,
+      lineNumber: 680,
       columnNumber: 17
     }
   }, "OUR MENTORS"), __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 664,
+      lineNumber: 681,
       columnNumber: 17
     }
   }, "\u6211\u4EEC\u7684\u5BFC\u5E08\u6765\u81EA\u4E8E"))), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 667,
+      lineNumber: 684,
       columnNumber: 13
     }
   }), __jsx("div", {
@@ -2847,7 +2892,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 668,
+      lineNumber: 685,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2855,7 +2900,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 669,
+      lineNumber: 686,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2863,7 +2908,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 670,
+      lineNumber: 687,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -2871,7 +2916,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 671,
+      lineNumber: 688,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -2879,7 +2924,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 672,
+      lineNumber: 689,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -2887,7 +2932,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 673,
+      lineNumber: 690,
       columnNumber: 23
     }
   }, "\u4E2D\u56FD"), __jsx("span", {
@@ -2895,7 +2940,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 674,
+      lineNumber: 691,
       columnNumber: 23
     }
   }, "China"), __jsx("h6", {
@@ -2903,7 +2948,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 675,
+      lineNumber: 692,
       columnNumber: 23
     }
   }, "\u9999\u6E2F\u82B1\u65D7\u94F6\u884C"), __jsx("span", {
@@ -2911,7 +2956,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 676,
+      lineNumber: 693,
       columnNumber: 23
     }
   }, "Citibank"), __jsx("h6", {
@@ -2919,7 +2964,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 677,
+      lineNumber: 694,
       columnNumber: 23
     }
   }, "\u9999\u6E2F\u5DF4\u514B\u83B1\u94F6\u884C"), __jsx("span", {
@@ -2927,7 +2972,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 678,
+      lineNumber: 695,
       columnNumber: 23
     }
   }, "Barclays"), __jsx("h6", {
@@ -2935,7 +2980,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 679,
+      lineNumber: 696,
       columnNumber: 23
     }
   }, "\u666E\u534E\u6C38\u9053\u4E2D\u56FD"), __jsx("span", {
@@ -2943,7 +2988,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 680,
+      lineNumber: 697,
       columnNumber: 23
     }
   }, "PwC"), __jsx("h6", {
@@ -2951,7 +2996,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 681,
+      lineNumber: 698,
       columnNumber: 23
     }
   }, "\u5B89\u6C38\u4E2D\u56FD"), __jsx("span", {
@@ -2959,7 +3004,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 682,
+      lineNumber: 699,
       columnNumber: 23
     }
   }, "Ernst & Young"), __jsx("h6", {
@@ -2967,7 +3012,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 683,
+      lineNumber: 700,
       columnNumber: 23
     }
   }, "\u6BD5\u9A6C\u5A01\u4E2D\u56FD"), __jsx("span", {
@@ -2975,7 +3020,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 684,
+      lineNumber: 701,
       columnNumber: 23
     }
   }, "KPMG"), __jsx("h6", {
@@ -2983,7 +3028,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 685,
+      lineNumber: 702,
       columnNumber: 23
     }
   }, "\u817E\u8BAF"), __jsx("span", {
@@ -2991,7 +3036,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 686,
+      lineNumber: 703,
       columnNumber: 23
     }
   }, "Tencent"), __jsx("h6", {
@@ -2999,7 +3044,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 687,
+      lineNumber: 704,
       columnNumber: 23
     }
   }, "BBDO\u73AF\u7403"), __jsx("span", {
@@ -3007,7 +3052,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 688,
+      lineNumber: 705,
       columnNumber: 23
     }
   }, "BBDO"), __jsx("h6", {
@@ -3015,7 +3060,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 689,
+      lineNumber: 706,
       columnNumber: 23
     }
   }, "\u4EAC\u4E1C"), __jsx("span", {
@@ -3023,7 +3068,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 690,
+      lineNumber: 707,
       columnNumber: 23
     }
   }, "JD"))), __jsx("div", {
@@ -3031,7 +3076,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 693,
+      lineNumber: 710,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3039,7 +3084,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 694,
+      lineNumber: 711,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -3047,7 +3092,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 695,
+      lineNumber: 712,
       columnNumber: 23
     }
   }, "\u5317\u7F8E"), __jsx("span", {
@@ -3055,7 +3100,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 696,
+      lineNumber: 713,
       columnNumber: 23
     }
   }, "North America"), __jsx("h6", {
@@ -3063,7 +3108,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 697,
+      lineNumber: 714,
       columnNumber: 23
     }
   }, "CPPIB"), __jsx("span", {
@@ -3071,7 +3116,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 698,
+      lineNumber: 715,
       columnNumber: 23
     }
   }, "\u5168\u7403\u5341\u5927\u516C\u5171\u9000\u4F11\u57FA\u91D1"), __jsx("h6", {
@@ -3079,7 +3124,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 699,
+      lineNumber: 716,
       columnNumber: 23
     }
   }, "OTPP"), __jsx("span", {
@@ -3087,7 +3132,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 700,
+      lineNumber: 717,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u6700\u5927\u7684\u5355\u4E00\u578B\u4E13\u4E1A\u5316\u9000\u4F11\u57FA\u91D1"), __jsx("h6", {
@@ -3095,7 +3140,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 701,
+      lineNumber: 718,
       columnNumber: 23
     }
   }, "\u666E\u534E\u6C38\u9053\u52A0\u62FF\u5927"), __jsx("span", {
@@ -3103,7 +3148,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 702,
+      lineNumber: 719,
       columnNumber: 23
     }
   }, "PwC"), __jsx("h6", {
@@ -3111,7 +3156,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 703,
+      lineNumber: 720,
       columnNumber: 23
     }
   }, "\u5FB7\u52E4\u52A0\u62FF\u5927"), __jsx("span", {
@@ -3119,7 +3164,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 704,
+      lineNumber: 721,
       columnNumber: 23
     }
   }, "Deloitte"), __jsx("h6", {
@@ -3127,7 +3172,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 705,
+      lineNumber: 722,
       columnNumber: 23
     }
   }, "\u6BD5\u9A6C\u5A01\u52A0\u62FF\u5927"), __jsx("span", {
@@ -3135,7 +3180,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 706,
+      lineNumber: 723,
       columnNumber: 23
     }
   }, "KPMG"), __jsx("h6", {
@@ -3143,7 +3188,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 707,
+      lineNumber: 724,
       columnNumber: 23
     }
   }, "\u6EE1\u5730\u53EF\u94F6\u884C"), __jsx("span", {
@@ -3151,7 +3196,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 708,
+      lineNumber: 725,
       columnNumber: 23
     }
   }, "BMO"), __jsx("h6", {
@@ -3159,7 +3204,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 709,
+      lineNumber: 726,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u7687\u5BB6\u94F6\u884C"), __jsx("span", {
@@ -3167,7 +3212,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 710,
+      lineNumber: 727,
       columnNumber: 23
     }
   }, "RBC"), __jsx("h6", {
@@ -3175,7 +3220,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 711,
+      lineNumber: 728,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u5E1D\u56FD\u5546\u4E1A\u94F6\u884C"), __jsx("span", {
@@ -3183,7 +3228,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 712,
+      lineNumber: 729,
       columnNumber: 23
     }
   }, "CIBC"), __jsx("h6", {
@@ -3191,7 +3236,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 713,
+      lineNumber: 730,
       columnNumber: 23
     }
   }, "\u9053\u660E\u94F6\u884C"), __jsx("span", {
@@ -3199,7 +3244,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 714,
+      lineNumber: 731,
       columnNumber: 23
     }
   }, "TD"), __jsx("h6", {
@@ -3207,7 +3252,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 715,
+      lineNumber: 732,
       columnNumber: 23
     }
   }, "\u4E30\u4E1A\u94F6\u884C"), __jsx("span", {
@@ -3215,7 +3260,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 716,
+      lineNumber: 733,
       columnNumber: 23
     }
   }, "Scotiabank"))), __jsx("div", {
@@ -3223,7 +3268,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 719,
+      lineNumber: 736,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3231,7 +3276,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 720,
+      lineNumber: 737,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -3239,7 +3284,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 721,
+      lineNumber: 738,
       columnNumber: 23
     }
   }, "\u5317\u7F8E"), __jsx("span", {
@@ -3247,7 +3292,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 722,
+      lineNumber: 739,
       columnNumber: 23
     }
   }, "North America"), __jsx("h6", {
@@ -3255,7 +3300,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 723,
+      lineNumber: 740,
       columnNumber: 23
     }
   }, "\u8C37\u6B4C"), __jsx("span", {
@@ -3263,7 +3308,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 724,
+      lineNumber: 741,
       columnNumber: 23
     }
   }, "Google"), __jsx("h6", {
@@ -3271,7 +3316,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 725,
+      lineNumber: 742,
       columnNumber: 23
     }
   }, "\u5FAE\u8F6F"), __jsx("span", {
@@ -3279,7 +3324,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 726,
+      lineNumber: 743,
       columnNumber: 23
     }
   }, "Microsoft"), __jsx("h6", {
@@ -3287,7 +3332,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 727,
+      lineNumber: 744,
       columnNumber: 23
     }
   }, "\u7B2C\u4E00\u8D44\u672C"), __jsx("span", {
@@ -3295,7 +3340,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 728,
+      lineNumber: 745,
       columnNumber: 23
     }
   }, "Capital One"), __jsx("h6", {
@@ -3303,7 +3348,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 729,
+      lineNumber: 746,
       columnNumber: 23
     }
   }, "\u6C38\u660E\u91D1\u878D"), __jsx("span", {
@@ -3311,7 +3356,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 730,
+      lineNumber: 747,
       columnNumber: 23
     }
   }, "Sunlife Financial"), __jsx("h6", {
@@ -3319,7 +3364,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 731,
+      lineNumber: 748,
       columnNumber: 23
     }
   }, "\u4F20\u7ACB\u5A92\u4F53"), __jsx("span", {
@@ -3327,7 +3372,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 732,
+      lineNumber: 749,
       columnNumber: 23
     }
   }, "Mindshare"), __jsx("h6", {
@@ -3335,7 +3380,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 733,
+      lineNumber: 750,
       columnNumber: 23
     }
   }, "SAP"), __jsx("span", {
@@ -3343,7 +3388,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 734,
+      lineNumber: 751,
       columnNumber: 23
     }
   }, "Software Solutions"), __jsx("h6", {
@@ -3351,7 +3396,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 735,
+      lineNumber: 752,
       columnNumber: 23
     }
   }, "Rogers"), __jsx("span", {
@@ -3359,7 +3404,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 736,
+      lineNumber: 753,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u6700\u5927\u79FB\u52A8\u8FD0\u8425\u5546")))))))), __jsx("section", {
@@ -3367,7 +3412,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 746,
+      lineNumber: 763,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -3375,7 +3420,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 747,
+      lineNumber: 764,
       columnNumber: 11
     }
   }), __jsx("div", {
@@ -3383,7 +3428,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 758,
+      lineNumber: 775,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -3391,7 +3436,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 759,
+      lineNumber: 776,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3399,7 +3444,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 760,
+      lineNumber: 777,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -3407,14 +3452,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 761,
+      lineNumber: 778,
       columnNumber: 17
     }
   }, "POWERED BY EASYGROUP"), __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 762,
+      lineNumber: 779,
       columnNumber: 17
     }
   }, "Easy Group \u6613\u7EF4\u96C6\u56E2"))), __jsx("div", {
@@ -3422,7 +3467,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 765,
+      lineNumber: 782,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3430,7 +3475,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 766,
+      lineNumber: 783,
       columnNumber: 15
     }
   }, __jsx("img", {
@@ -3440,7 +3485,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 767,
+      lineNumber: 784,
       columnNumber: 17
     }
   }))), __jsx("div", {
@@ -3448,7 +3493,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 770,
+      lineNumber: 787,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3456,14 +3501,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 771,
+      lineNumber: 788,
       columnNumber: 15
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 772,
+      lineNumber: 789,
       columnNumber: 17
     }
   }, "Easy Career\u96B6\u5C5E\u4E8EEasy Group\u96C6\u56E2\u3002\u96C6\u56E2\u65D7\u4E0B\u62E5\u6709Easy 4.0 (\u6613\u9014\u6559\u80B2)\uFF0C\u5B5C\u5FAAEdu, Easy Career (\u6613\u804C)\uFF0CHiOffer\uFF0CWeCare\u5FAE\u81F4\u7B49\u9644\u5C5E\u670D\u52A1\u57F9\u8BAD\u4F53\u7CFB\u3002\u96C6\u56E2\u603B\u90E8\u4F4D\u4E8E\u4E2D\u56FD\u6DF1\u5733\uFF0C\u5728\u52A0\u62FF\u5927\u3001\u7F8E\u56FD\u7B49\u5730\u533A\u8BBE\u6709\u6D77\u5916\u5206\u90E8\u3002\u4EE5\u6559\u80B2\u4F5C\u4E3A\u51FA\u53D1\u70B9\uFF0C \u201C\u8D23\u4EFB\u5FC3\u81F3\u4E0A\u201D \u4F5C\u4E3A\u6838\u5FC3\u7406\u5FF5\uFF0C\u96C6\u56E2\u4E1A\u52A1\u6DB5\u76D6\u7559\u5B66\u89C4\u5212\uFF0C\u6D77\u5916\u751F\u6D3B\u8F85\u52A9\uFF0C\u9AD8\u7B49\u6559\u80B2\u8F85\u5BFC\uFF0C\u6C42\u804C\u54A8\u8BE2\uFF0C\u7814\u7A76\u751F\u7533\u8BF7\uFF0C\u521B\u4E1A\u5B75\u5316\u7B49\u9886\u57DF\u3002\u5207\u5B9E\u6253\u9020\u7559\u5B66\u4EA7\u4E1A\u95ED\u73AF\uFF0C\u4E3A\u60F3\u8981\u7559\u5B66\uFF0C\u5DF2\u7ECF\u7559\u5B66\uFF0C\u5B8C\u6210\u7559\u5B66\u7684\u5B66\u5B50\u4EE5\u53CA\u4ED6\u4EEC\u7684\u5BB6\u957F\u521B\u9020\u771F\u6B63\u6709\u4EF7\u503C\u7684\u670D\u52A1\u3002\u3002"))), __jsx("div", {
@@ -3473,7 +3518,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 775,
+      lineNumber: 792,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3481,7 +3526,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 776,
+      lineNumber: 793,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -3494,7 +3539,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 777,
+      lineNumber: 794,
       columnNumber: 17
     }
   }, __jsx("article", {
@@ -3502,7 +3547,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 778,
+      lineNumber: 795,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3513,7 +3558,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 779,
+      lineNumber: 796,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3521,7 +3566,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 780,
+      lineNumber: 797,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3529,7 +3574,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 781,
+      lineNumber: 798,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3537,14 +3582,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 782,
+      lineNumber: 799,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 783,
+      lineNumber: 800,
       columnNumber: 25
     }
   }, "Easy Career")))), __jsx("article", {
@@ -3552,7 +3597,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 787,
+      lineNumber: 804,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3563,7 +3608,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 788,
+      lineNumber: 805,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3571,7 +3616,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 789,
+      lineNumber: 806,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3579,7 +3624,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 790,
+      lineNumber: 807,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3587,14 +3632,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 791,
+      lineNumber: 808,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 792,
+      lineNumber: 809,
       columnNumber: 25
     }
   }, "\u8BAE\u5458\u53C2\u4F1A")))), __jsx("article", {
@@ -3602,7 +3647,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 796,
+      lineNumber: 813,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3613,7 +3658,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 797,
+      lineNumber: 814,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3621,7 +3666,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 798,
+      lineNumber: 815,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3629,7 +3674,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 799,
+      lineNumber: 816,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3637,14 +3682,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 800,
+      lineNumber: 817,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 801,
+      lineNumber: 818,
       columnNumber: 25
     }
   }, "\u6559\u5B66\u7814\u8BA8\u4F1A")))), __jsx("article", {
@@ -3652,7 +3697,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 805,
+      lineNumber: 822,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3663,7 +3708,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 806,
+      lineNumber: 823,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3671,7 +3716,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 807,
+      lineNumber: 824,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3679,7 +3724,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 808,
+      lineNumber: 825,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3687,14 +3732,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 809,
+      lineNumber: 826,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 810,
+      lineNumber: 827,
       columnNumber: 25
     }
   }, "\u96C6\u56E2\u5E74\u4F1A")))), __jsx("article", {
@@ -3702,7 +3747,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 814,
+      lineNumber: 831,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3713,7 +3758,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 815,
+      lineNumber: 832,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3721,7 +3766,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 816,
+      lineNumber: 833,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3729,7 +3774,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 817,
+      lineNumber: 834,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3737,14 +3782,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 818,
+      lineNumber: 835,
       columnNumber: 25
     }
   }, "2017"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 819,
+      lineNumber: 836,
       columnNumber: 25
     }
   }, "\u5317\u4EAC\u89C1\u9762\u4F1A")))), __jsx("article", {
@@ -3752,7 +3797,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 823,
+      lineNumber: 840,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3763,7 +3808,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 824,
+      lineNumber: 841,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3771,7 +3816,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 825,
+      lineNumber: 842,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3779,7 +3824,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 826,
+      lineNumber: 843,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3787,14 +3832,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 827,
+      lineNumber: 844,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 828,
+      lineNumber: 845,
       columnNumber: 25
     }
   }, "\u5E74\u4F1A\u8C22\u5E55")))), __jsx("article", {
@@ -3802,7 +3847,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 832,
+      lineNumber: 849,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3813,7 +3858,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 833,
+      lineNumber: 850,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3821,7 +3866,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 834,
+      lineNumber: 851,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3829,7 +3874,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 835,
+      lineNumber: 852,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3837,14 +3882,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 836,
+      lineNumber: 853,
       columnNumber: 25
     }
   }, "2014"), __jsx("h5", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 837,
+      lineNumber: 854,
       columnNumber: 25
     }
   }, "\u767E\u4EBAReview"))))))))), __jsx("section", {
@@ -3853,7 +3898,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 848,
+      lineNumber: 865,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -3861,7 +3906,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 849,
+      lineNumber: 866,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -3869,7 +3914,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 850,
+      lineNumber: 867,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3877,14 +3922,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 851,
+      lineNumber: 868,
       columnNumber: 15
     }
   }, __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 852,
+      lineNumber: 869,
       columnNumber: 17
     }
   }, "\u6700\u8FD1\u4E8B\u4EF6"))), __jsx("div", {
@@ -3892,7 +3937,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 855,
+      lineNumber: 872,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3900,7 +3945,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 856,
+      lineNumber: 873,
       columnNumber: 15
     }
   }, __jsx("article", {
@@ -3908,7 +3953,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 857,
+      lineNumber: 874,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -3919,7 +3964,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 858,
+      lineNumber: 875,
       columnNumber: 19
     }
   }), __jsx("div", {
@@ -3927,7 +3972,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 859,
+      lineNumber: 876,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3935,7 +3980,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 860,
+      lineNumber: 877,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -3943,14 +3988,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 861,
+      lineNumber: 878,
       columnNumber: 23
     }
   }, "News"), __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 862,
+      lineNumber: 879,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u5546\u8D38\u90E8\u957F\u5BB4\u4F1A")), __jsx("div", {
@@ -3958,14 +4003,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 864,
+      lineNumber: 881,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 865,
+      lineNumber: 882,
       columnNumber: 23
     }
   }, "Easy Group\u53D7\u9080\u53C2\u52A0\u52A0\u62FF\u5927\u5546\u8D38\u90E8\u957F\u5348\u5BB4"))))), __jsx("div", {
@@ -3973,7 +4018,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 870,
+      lineNumber: 887,
       columnNumber: 15
     }
   }, __jsx("article", {
@@ -3981,7 +4026,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 871,
+      lineNumber: 888,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -3992,7 +4037,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 872,
+      lineNumber: 889,
       columnNumber: 19
     }
   }), __jsx("div", {
@@ -4000,7 +4045,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 873,
+      lineNumber: 890,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -4008,7 +4053,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 874,
+      lineNumber: 891,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -4016,14 +4061,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 875,
+      lineNumber: 892,
       columnNumber: 23
     }
   }, "News"), __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 876,
+      lineNumber: 893,
       columnNumber: 23
     }
   }, "2018\u4E2D\u56FD\u798F\u5E03\u65AF30 Under 30")), __jsx("div", {
@@ -4031,14 +4076,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 878,
+      lineNumber: 895,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 879,
+      lineNumber: 896,
       columnNumber: 23
     }
   }, "Easy Group\u521B\u59CB\u4EBAJacky Zhang\u4E0A\u699C2018\u4E2D\u56FD\u798F\u5E03\u65AF30\u4F4D30\u5C81\u4EE5\u4E0B\u7CBE\u82F1\u699C"))))), __jsx("div", {
@@ -4046,7 +4091,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 884,
+      lineNumber: 901,
       columnNumber: 15
     }
   }, __jsx("article", {
@@ -4054,7 +4099,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 885,
+      lineNumber: 902,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4065,7 +4110,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 886,
+      lineNumber: 903,
       columnNumber: 19
     }
   }), __jsx("div", {
@@ -4073,7 +4118,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 887,
+      lineNumber: 904,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -4081,7 +4126,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 888,
+      lineNumber: 905,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -4089,14 +4134,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 889,
+      lineNumber: 906,
       columnNumber: 23
     }
   }, "News"), __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 890,
+      lineNumber: 907,
       columnNumber: 23
     }
   }, "\u83B7\u5F97Pre-A\u8F6E1000\u4E07\u878D\u8D44")), __jsx("div", {
@@ -4104,14 +4149,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 892,
+      lineNumber: 909,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 893,
+      lineNumber: 910,
       columnNumber: 23
     }
   }, "\u606D\u559CEasy Group\u83B7\u5F97Pre-A\u8F6E1000\u4E07\u6218\u7565\u6295\u8D44")))))))), __jsx("footer", {
@@ -4119,7 +4164,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 903,
+      lineNumber: 920,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -4127,7 +4172,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 904,
+      lineNumber: 921,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -4135,7 +4180,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 905,
+      lineNumber: 922,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -4143,7 +4188,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 906,
+      lineNumber: 923,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -4151,7 +4196,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 907,
+      lineNumber: 924,
       columnNumber: 17
     }
   }, __jsx("ul", {
@@ -4159,7 +4204,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 908,
+      lineNumber: 925,
       columnNumber: 19
     }
   }, __jsx("li", {
@@ -4167,7 +4212,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 909,
+      lineNumber: 926,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4176,7 +4221,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 910,
+      lineNumber: 927,
       columnNumber: 23
     }
   }, "\u8054\u7CFB\u6211\u4EEC")), __jsx("li", {
@@ -4184,7 +4229,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 912,
+      lineNumber: 929,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4193,7 +4238,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 913,
+      lineNumber: 930,
       columnNumber: 23
     }
   }, "\u52A0\u5165\u6211\u4EEC")), __jsx("li", {
@@ -4201,7 +4246,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 915,
+      lineNumber: 932,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4210,7 +4255,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 916,
+      lineNumber: 933,
       columnNumber: 23
     }
   }, "Legal Information")))), __jsx("div", {
@@ -4218,7 +4263,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 920,
+      lineNumber: 937,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -4228,7 +4273,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 921,
+      lineNumber: 938,
       columnNumber: 19
     }
   })), __jsx("div", {
@@ -4236,7 +4281,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 923,
+      lineNumber: 940,
       columnNumber: 17
     }
   }, __jsx("ul", {
@@ -4244,14 +4289,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 924,
+      lineNumber: 941,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 925,
+      lineNumber: 942,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4261,14 +4306,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 925,
+      lineNumber: 942,
       columnNumber: 25
     }
   })), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 926,
+      lineNumber: 943,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4278,14 +4323,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 926,
+      lineNumber: 943,
       columnNumber: 25
     }
   })), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 927,
+      lineNumber: 944,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4295,14 +4340,14 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 927,
+      lineNumber: 944,
       columnNumber: 25
     }
   })), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 928,
+      lineNumber: 945,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4311,7 +4356,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 928,
+      lineNumber: 945,
       columnNumber: 25
     }
   })))))))));
@@ -4325,7 +4370,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FiNks%2FDocuments%2FWORK%2Fezcareer%2Fezc-nextjs%2Fpages%2Findex.tsx ***!
   \***********************************************************************************************************************************************/
@@ -4348,5 +4393,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
