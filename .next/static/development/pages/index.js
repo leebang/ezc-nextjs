@@ -1,256 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-
-module.exports = _arrayWithoutHoles;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-module.exports = _assertThisInitialized;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-}
-
-module.exports = _classCallCheck;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/createClass.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/createClass.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _defineProperties(target, props) {
-  for (var i = 0; i < props.length; i++) {
-    var descriptor = props[i];
-    descriptor.enumerable = descriptor.enumerable || false;
-    descriptor.configurable = true;
-    if ("value" in descriptor) descriptor.writable = true;
-    Object.defineProperty(target, descriptor.key, descriptor);
-  }
-}
-
-function _createClass(Constructor, protoProps, staticProps) {
-  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
-  if (staticProps) _defineProperties(Constructor, staticProps);
-  return Constructor;
-}
-
-module.exports = _createClass;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  };
-  return _getPrototypeOf(o);
-}
-
-module.exports = _getPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
-
-module.exports = _inherits;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/iterableToArray.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/iterableToArray.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
-
-module.exports = _iterableToArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/nonIterableSpread.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-module.exports = _nonIterableSpread;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
-
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _setPrototypeOf(o, p) {
-  module.exports = _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
-
-  return _setPrototypeOf(o, p);
-}
-
-module.exports = _setPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/toConsumableArray.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/toConsumableArray.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var arrayWithoutHoles = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime/helpers/arrayWithoutHoles.js");
-
-var iterableToArray = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime/helpers/iterableToArray.js");
-
-var nonIterableSpread = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime/helpers/nonIterableSpread.js");
-
-function _toConsumableArray(arr) {
-  return arrayWithoutHoles(arr) || iterableToArray(arr) || nonIterableSpread();
-}
-
-module.exports = _toConsumableArray;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/typeof.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/typeof.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
-    module.exports = _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    module.exports = _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
-}
-
-module.exports = _typeof;
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FiNks%2FDocuments%2FWORK%2Fezcareer%2Fezc-nextjs%2Fpages%2Findex.tsx!./":
 /*!*******************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2FiNks%2FDocuments%2FWORK%2Fezcareer%2Fezc-nextjs%2Fpages%2Findex.tsx ***!
@@ -271,407 +20,6 @@ module.exports = _typeof;
       return mod
     }]);
   
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/amp-context.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/amp-context.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.AmpStateContext = React.createContext({});
-
-if (true) {
-  exports.AmpStateContext.displayName = 'AmpStateContext';
-}
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/amp.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/amp.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
-
-function isInAmpMode() {
-  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-      _ref$ampFirst = _ref.ampFirst,
-      ampFirst = _ref$ampFirst === void 0 ? false : _ref$ampFirst,
-      _ref$hybrid = _ref.hybrid,
-      hybrid = _ref$hybrid === void 0 ? false : _ref$hybrid,
-      _ref$hasQuery = _ref.hasQuery,
-      hasQuery = _ref$hasQuery === void 0 ? false : _ref$hasQuery;
-
-  return ampFirst || hybrid && hasQuery;
-}
-
-exports.isInAmpMode = isInAmpMode;
-
-function useAmp() {
-  // Don't assign the context value to a variable to save bytes
-  return isInAmpMode(react_1["default"].useContext(amp_context_1.AmpStateContext));
-}
-
-exports.useAmp = useAmp;
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/head-manager-context.js":
-/*!************************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/head-manager-context.js ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.HeadManagerContext = React.createContext(null);
-
-if (true) {
-  exports.HeadManagerContext.displayName = 'HeadManagerContext';
-}
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/head.js":
-/*!********************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/head.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next/dist/next-server/lib/side-effect.js"));
-
-var amp_context_1 = __webpack_require__(/*! ./amp-context */ "./node_modules/next/dist/next-server/lib/amp-context.js");
-
-var head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "./node_modules/next/dist/next-server/lib/head-manager-context.js");
-
-var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next/dist/next-server/lib/amp.js");
-
-function defaultHead() {
-  var inAmpMode = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-  var head = [react_1["default"].createElement("meta", {
-    charSet: "utf-8"
-  })];
-
-  if (!inAmpMode) {
-    head.push(react_1["default"].createElement("meta", {
-      name: "viewport",
-      content: "width=device-width"
-    }));
-  }
-
-  return head;
-}
-
-exports.defaultHead = defaultHead;
-
-function onlyReactElement(list, child) {
-  // React children can be "string" or "number" in this case we ignore them for backwards compat
-  if (typeof child === 'string' || typeof child === 'number') {
-    return list;
-  } // Adds support for React.Fragment
-
-
-  if (child.type === react_1["default"].Fragment) {
-    return list.concat(react_1["default"].Children.toArray(child.props.children).reduce(function (fragmentList, fragmentChild) {
-      if (typeof fragmentChild === 'string' || typeof fragmentChild === 'number') {
-        return fragmentList;
-      }
-
-      return fragmentList.concat(fragmentChild);
-    }, []));
-  }
-
-  return list.concat(child);
-}
-
-var METATYPES = ['name', 'httpEquiv', 'charSet', 'itemProp'];
-/*
- returns a function for filtering head child elements
- which shouldn't be duplicated, like <title/>
- Also adds support for deduplicated `key` properties
-*/
-
-function unique() {
-  var keys = new Set();
-  var tags = new Set();
-  var metaTypes = new Set();
-  var metaCategories = {};
-  return function (h) {
-    var unique = true;
-
-    if (h.key && typeof h.key !== 'number' && h.key.indexOf('$') > 0) {
-      var key = h.key.slice(h.key.indexOf('$') + 1);
-
-      if (keys.has(key)) {
-        unique = false;
-      } else {
-        keys.add(key);
-      }
-    } // eslint-disable-next-line default-case
-
-
-    switch (h.type) {
-      case 'title':
-      case 'base':
-        if (tags.has(h.type)) {
-          unique = false;
-        } else {
-          tags.add(h.type);
-        }
-
-        break;
-
-      case 'meta':
-        for (var i = 0, len = METATYPES.length; i < len; i++) {
-          var metatype = METATYPES[i];
-          if (!h.props.hasOwnProperty(metatype)) continue;
-
-          if (metatype === 'charSet') {
-            if (metaTypes.has(metatype)) {
-              unique = false;
-            } else {
-              metaTypes.add(metatype);
-            }
-          } else {
-            var category = h.props[metatype];
-            var categories = metaCategories[metatype] || new Set();
-
-            if (categories.has(category)) {
-              unique = false;
-            } else {
-              categories.add(category);
-              metaCategories[metatype] = categories;
-            }
-          }
-        }
-
-        break;
-    }
-
-    return unique;
-  };
-}
-/**
- *
- * @param headElements List of multiple <Head> instances
- */
-
-
-function reduceComponents(headElements, props) {
-  return headElements.reduce(function (list, headElement) {
-    var headElementChildren = react_1["default"].Children.toArray(headElement.props.children);
-    return list.concat(headElementChildren);
-  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead(props.inAmpMode)).filter(unique()).reverse().map(function (c, i) {
-    var key = c.key || i;
-    return react_1["default"].cloneElement(c, {
-      key: key
-    });
-  });
-}
-
-var Effect = side_effect_1["default"]();
-/**
- * This component injects elements to `<head>` of your page.
- * To avoid duplicated `tags` in `<head>` you can use the `key` property, which will make sure every tag is only rendered once.
- */
-
-function Head(_ref) {
-  var children = _ref.children;
-  return react_1["default"].createElement(amp_context_1.AmpStateContext.Consumer, null, function (ampState) {
-    return react_1["default"].createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
-      return react_1["default"].createElement(Effect, {
-        reduceComponentsToState: reduceComponents,
-        handleStateChange: updateHead,
-        inAmpMode: amp_1.isInAmpMode(ampState)
-      }, children);
-    });
-  });
-}
-
-Head.rewind = Effect.rewind;
-exports["default"] = Head;
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/side-effect.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/side-effect.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-
-var _assertThisInitialized = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-
-var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-
-var _toConsumableArray = __webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ "./node_modules/@babel/runtime/helpers/toConsumableArray.js");
-
-function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var isServer = false;
-
-exports["default"] = function () {
-  var mountedInstances = new Set();
-  var state;
-
-  function emitChange(component) {
-    state = component.props.reduceComponentsToState(_toConsumableArray(mountedInstances), component.props);
-
-    if (component.props.handleStateChange) {
-      component.props.handleStateChange(state);
-    }
-  }
-
-  return /*#__PURE__*/function (_react_1$Component) {
-    _inherits(_class, _react_1$Component);
-
-    var _super = _createSuper(_class);
-
-    _createClass(_class, null, [{
-      key: "rewind",
-      // Used when server rendering
-      value: function rewind() {
-        var recordedState = state;
-        state = undefined;
-        mountedInstances.clear();
-        return recordedState;
-      }
-    }]);
-
-    function _class(props) {
-      var _this;
-
-      _classCallCheck(this, _class);
-
-      _this = _super.call(this, props);
-
-      if (isServer) {
-        mountedInstances.add(_assertThisInitialized(_this));
-        emitChange(_assertThisInitialized(_this));
-      }
-
-      return _this;
-    }
-
-    _createClass(_class, [{
-      key: "componentDidMount",
-      value: function componentDidMount() {
-        mountedInstances.add(this);
-        emitChange(this);
-      }
-    }, {
-      key: "componentDidUpdate",
-      value: function componentDidUpdate() {
-        emitChange(this);
-      }
-    }, {
-      key: "componentWillUnmount",
-      value: function componentWillUnmount() {
-        mountedInstances["delete"](this);
-        emitChange(this);
-      }
-    }, {
-      key: "render",
-      value: function render() {
-        return null;
-      }
-    }]);
-
-    return _class;
-  }(react_1.Component);
-};
 
 /***/ }),
 
@@ -697,8 +45,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _navBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navBar */ "./pages/navBar.tsx");
 var _jsxFileName = "/Users/iNks/Documents/WORK/ezcareer/ezc-nextjs/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -716,56 +63,8 @@ function Home() {
 
     console.log(tar.parentNode.innerHTML);
   });
-  return __jsx("body", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 5
-    }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 5
-    }
-  }, __jsx("meta", {
-    charSet: "utf-8",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 5
-    }
-  }), __jsx("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1, shrink-to-fit=no",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 5
-    }
-  }), __jsx("title", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 5
-    }
-  }, "Easy Career | \u627E\u5DE5\u4F5C\uFF0C\u4E0A\u6613\u804C"), __jsx("link", {
-    rel: "stylesheet",
-    href: "/assets/css/vendor.css",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 5
-    }
-  }), __jsx("link", {
-    rel: "stylesheet",
-    href: "/assets/css/style.css",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("script", {
+    src: "/assets/js/vendor.js",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -773,521 +72,42 @@ function Home() {
       columnNumber: 5
     }
   }), __jsx("script", {
-    type: "text/javascript",
-    src: "/assets/js/jquery-3.4.1.js",
+    src: "/assets/js/app.js",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36,
-      columnNumber: 5
+      columnNumber: 11
     }
   }), __jsx("script", {
-    type: "text/javascript",
-    src: "/assets/js/vendor.js",
+    src: "/assets/js/shopify.js",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
-      columnNumber: 5
+      columnNumber: 11
     }
-  }), __jsx("script", {
-    type: "text/javascript",
-    src: "/assets/js/app.js",
+  }), __jsx(_navBar__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
       columnNumber: 5
     }
-  }), __jsx("script", {
-    type: "text/javascript",
-    src: "/assets/js/shopify.js",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 5
-    }
-  }), __jsx("script", {
-    type: "text/javascript",
-    src: "//code.tidio.co/bvmdkbiydd0dddefe6od2ym6lrtkl9te.js",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 5
-    }
-  }), __jsx("link", {
-    rel: "icon",
-    type: "image/png",
-    href: "assets/images/favicon.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 5
-    }
-  }), __jsx("script", {
-    async: true,
-    src: "https://www.googletagmanager.com/gtag/js?id=UA-140811008-5",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 5
-    }
-  }), __jsx("script", {
-    async: true,
-    src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 5
-    }
-  })), __jsx("header", {
-    className: "header-sticky header-dark",
-    style: {
-      border: 'none !important'
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "container",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 7
-    }
-  }, __jsx("nav", {
-    className: "navbar navbar-expand-lg navbar-dark",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 9
-    }
-  }, __jsx("a", {
-    className: "navbar-brand",
-    href: "index.html",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 11
-    }
-  }, __jsx("img", {
-    className: "navbar-logo navbar-logo-light logo-m",
-    src: "assets/images/logos/logodark.svg",
-    alt: "Logo",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53,
-      columnNumber: 13
-    }
-  }), __jsx("img", {
-    className: "navbar-logo navbar-logo-dark logo-m",
-    src: "assets/images/logos/logolight.svg",
-    alt: "Logo",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 13
-    }
-  })), __jsx("button", {
-    className: "navbar-toggler",
-    type: "button",
-    "data-toggle": "collapse",
-    "data-target": "#navbarSupportedContent",
-    "aria-controls": "navbarSupportedContent",
-    "aria-expanded": "false",
-    "aria-label": "Toggle navigation",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 11
-    }
-  }, __jsx("span", {
-    className: "burger",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 213
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 238
-    }
-  }))), __jsx("div", {
-    className: "collapse navbar-collapse",
-    id: "navbarSupportedContent",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 11
-    }
-  }, __jsx("ul", {
-    className: "navbar-nav align-items-center mr-auto",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 13
-    }
-  }, __jsx("li", {
-    className: "nav-item",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 15
-    }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "index.html",
-    role: "button",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 17
-    }
-  }, "\u9996\u9875")), __jsx("li", {
-    className: "nav-item dropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 4
-    }
-  }, __jsx("a", {
-    className: "nav-link dropdown-toggle",
-    href: "#",
-    id: "navbarDropdown",
-    role: "button",
-    "data-toggle": "dropdown",
-    "aria-haspopup": "true",
-    "aria-expanded": "false",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 15
-    }
-  }, "\u6838\u5FC3\u8BFE\u7A0B"), __jsx("div", {
-    className: "dropdown-menu",
-    "aria-labelledby": "navbarDropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 18
-    }
-  }, __jsx("a", {
-    className: "dropdown-item",
-    href: "http://www.ezcareer.ca/cfa.html",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 19
-    }
-  }, "CFAI\u7EA7 \u767E\u65F6\u73EDPlus"), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 19
-    }
-  }, "\u7B7E\u7EA6\u4FDD\u8FC7 | \u7EBF\u4E0A\u7EBF\u4E0B | \u5317\u7F8E\u540C\u5F00")), __jsx("div", {
-    className: "dropdown-divider",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75,
-      columnNumber: 17
-    }
-  }))), __jsx("li", {
-    className: "nav-item dropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 14
-    }
-  }, __jsx("a", {
-    className: "nav-link dropdown-toggle",
-    href: "#",
-    id: "navbarDropdown",
-    role: "button",
-    "data-toggle": "dropdown",
-    "aria-haspopup": "true",
-    "aria-expanded": "false",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 15
-    }
-  }, "\u62A5\u540D\u8BFE\u7A0B"), __jsx("div", {
-    className: "dropdown-menu",
-    "aria-labelledby": "navbarDropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 18
-    }
-  }, __jsx("a", {
-    className: "dropdown-item",
-    href: "http://moodle.ez4edu.com",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86,
-      columnNumber: 1
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 19
-    }
-  }, "\u5B66\u5458\u7CFB\u7EDF"), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 19
-    }
-  }, "\u5DF2\u7ECF\u62A5\u540D\u8BFE\u7A0B\u7684\u540C\u5B66")), __jsx("a", {
-    className: "dropdown-item",
-    href: "https://ezcareer.shop",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 19
-    }
-  }, "\u5927\u591A\u4F26\u591A\u5730\u533A"), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 19
-    }
-  }, "\u5305\u62EC\u6ED1\u94C1\u5362 | \u7EBF\u4E0B\u53CA\u7EBF\u4E0B\u8BFE\u7A0B")), __jsx("div", {
-    className: "dropdown-divider",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95,
-      columnNumber: 17
-    }
-  }), __jsx("a", {
-    className: "dropdown-item",
-    href: "https://ezc-alberta.shop",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 19
-    }
-  }, "\u963F\u5C14\u4F2F\u5854\u5730\u533A"), __jsx("p", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 19
-    }
-  }, "\u7EBF\u4E0B\u53CA\u7EBF\u4E0B\u8BFE\u7A0B")))), __jsx("li", {
-    className: "nav-item dropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104,
-      columnNumber: 15
-    }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "vip.html",
-    role: "button",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 105,
-      columnNumber: 16
-    }
-  }, "1\u5BF91\u6C42\u804C\u670D\u52A1")), __jsx("li", {
-    className: "nav-item dropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 16
-    }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "http://jobs.ezcareer.ca/",
-    role: "button",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 16
-    }
-  }, "\u5C97\u4F4D\u76F4\u901A\u8F66")), __jsx("li", {
-    className: "nav-item dropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117,
-      columnNumber: 3
-    }
-  }, __jsx("a", {
-    className: "nav-link dropdown-toggle",
-    href: "#",
-    id: "navbarDropdown",
-    role: "button",
-    "data-toggle": "dropdown",
-    "aria-haspopup": "true",
-    "aria-expanded": "false",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118,
-      columnNumber: 15
-    }
-  }, "\u8054\u7CFB\u6211\u4EEC"), __jsx("div", {
-    className: "dropdown-menu",
-    "aria-labelledby": "navbarDropdown",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121,
-      columnNumber: 18
-    }
-  }, __jsx("a", {
-    className: "dropdown-item",
-    href: "career.html",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 19
-    }
-  }, "\u52A0\u5165\u6211\u4EEC")), __jsx("div", {
-    className: "dropdown-divider",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125,
-      columnNumber: 17
-    }
-  }), __jsx("a", {
-    className: "dropdown-item",
-    href: "contacts.html",
-    target: "_blank",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126,
-      columnNumber: 17
-    }
-  }, __jsx("span", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127,
-      columnNumber: 19
-    }
-  }, "\u8054\u7CFB\u6211\u4EEC"))))), __jsx("ul", {
-    className: "navbar-nav align-items-center mr-0",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 13
-    }
-  }, __jsx("li", {
-    className: "nav-item",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136,
-      columnNumber: 15
-    }
-  }, __jsx("a", {
-    className: "nav-link",
-    href: "http://www.easygroup.ca",
-    role: "button",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137,
-      columnNumber: 17
-    }
-  }, "Powered by Easy Group"))))))), __jsx("section", {
+  }), __jsx("section", {
     className: "p-0",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
-      columnNumber: 9
+      lineNumber: 41,
+      columnNumber: 7
     }
   }, __jsx("div", {
     className: "gallery",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 42,
       columnNumber: 7
     }
   }, __jsx("div", {
@@ -1295,7 +115,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 43,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1303,7 +123,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 44,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -1311,7 +131,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 45,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1322,7 +142,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 46,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -1331,7 +151,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 50,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1339,7 +159,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 51,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -1347,7 +167,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 52,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -1356,7 +176,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 53,
       columnNumber: 19
     }
   }, __jsx("span", {
@@ -1364,7 +184,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 54,
       columnNumber: 21
     }
   }, "Career Consulting Services"), __jsx("h1", {
@@ -1372,7 +192,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 55,
       columnNumber: 21
     }
   }, "\u4E00\u7AD9\u5F0F\u7559\u5B66\u751F\u804C\u4E1A\u670D\u52A1"), __jsx("a", {
@@ -1381,7 +201,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 57,
       columnNumber: 21
     }
   }, "\u8054\u7CFB\u6211\u4EEC")), __jsx("div", {
@@ -1389,7 +209,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 59,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -1397,7 +217,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 60,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -1405,7 +225,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 62,
       columnNumber: 22
     }
   }, __jsx("div", {
@@ -1413,7 +233,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 63,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -1421,7 +241,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 64,
       columnNumber: 27
     }
   }, __jsx("div", {
@@ -1429,7 +249,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 65,
       columnNumber: 56
     }
   }, __jsx("div", {
@@ -1437,7 +257,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 66,
       columnNumber: 31
     }
   }, __jsx("a", {
@@ -1446,7 +266,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 68,
       columnNumber: 16
     }
   }, "\u89C2\u770B\u54C1\u724C\u89C6\u9891", __jsx("i", {
@@ -1454,7 +274,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175,
+      lineNumber: 68,
       columnNumber: 102
     }
   }))))))), __jsx("div", {
@@ -1462,7 +282,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183,
+      lineNumber: 76,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -1470,7 +290,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 184,
+      lineNumber: 77,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -1478,7 +298,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 78,
       columnNumber: 27
     }
   }, __jsx("div", {
@@ -1486,14 +306,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186,
+      lineNumber: 79,
       columnNumber: 29
     }
   }, __jsx("h4", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 80,
       columnNumber: 31
     }
   }, "\u59CB\u4E8E2017")), __jsx("div", {
@@ -1501,7 +321,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 82,
       columnNumber: 29
     }
   }, __jsx("span", {
@@ -1509,7 +329,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 190,
+      lineNumber: 83,
       columnNumber: 31
     }
   }, "\u5317\u7F8E\u6C42\u804C\u98CE\u5411\u6807"))))), __jsx("div", {
@@ -1517,7 +337,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 195,
+      lineNumber: 88,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -1525,7 +345,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 89,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -1533,7 +353,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197,
+      lineNumber: 90,
       columnNumber: 27
     }
   }, __jsx("div", {
@@ -1541,14 +361,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 91,
       columnNumber: 29
     }
   }, __jsx("h4", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 92,
       columnNumber: 31
     }
   }, "200+ \u7CBE\u82F1\u5BFC\u5E08")), __jsx("div", {
@@ -1556,7 +376,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
+      lineNumber: 94,
       columnNumber: 29
     }
   }, __jsx("span", {
@@ -1564,7 +384,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 95,
       columnNumber: 31
     }
   }, "\u4E3A\u7559\u5B66\u751F\u7684\u5C31\u4E1A\u4FDD\u9A7E\u62A4\u822A"))))))))))), __jsx("div", {
@@ -1572,7 +392,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216,
+      lineNumber: 109,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1583,7 +403,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 110,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -1592,7 +412,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219,
+      lineNumber: 112,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1600,7 +420,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 113,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -1608,7 +428,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 114,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -1616,7 +436,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222,
+      lineNumber: 115,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -1624,7 +444,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 116,
       columnNumber: 23
     }
   }, "Jobs.ezcareer.ca"), __jsx("h1", {
@@ -1632,7 +452,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 117,
       columnNumber: 23
     }
   }, "\u9002\u5408\u7559\u5B66\u751F\u7684Job Board"), __jsx("a", {
@@ -1642,7 +462,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225,
+      lineNumber: 118,
       columnNumber: 23
     }
   }, "\u8FDB\u5165\u5B98\u7F51")))))), __jsx("div", {
@@ -1650,7 +470,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231,
+      lineNumber: 124,
       columnNumber: 2
     }
   }, __jsx("div", {
@@ -1661,7 +481,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
+      lineNumber: 125,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -1670,7 +490,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234,
+      lineNumber: 127,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1678,7 +498,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 235,
+      lineNumber: 128,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -1686,7 +506,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236,
+      lineNumber: 129,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -1694,7 +514,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 237,
+      lineNumber: 130,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -1702,7 +522,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238,
+      lineNumber: 131,
       columnNumber: 23
     }
   }, "VIP Program"), __jsx("h1", {
@@ -1710,7 +530,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
+      lineNumber: 132,
       columnNumber: 23
     }
   }, "\u79C1\u4EBA\u8BA2\u5236\u6C42\u804C\u7279\u8BAD\u8BA1\u5212"), __jsx("a", {
@@ -1720,7 +540,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240,
+      lineNumber: 133,
       columnNumber: 23
     }
   }, "\u4E86\u89E3\u66F4\u591A")))))), __jsx("div", {
@@ -1728,7 +548,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246,
+      lineNumber: 139,
       columnNumber: 14
     }
   }, __jsx("div", {
@@ -1739,7 +559,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247,
+      lineNumber: 140,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -1748,7 +568,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 249,
+      lineNumber: 142,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1756,7 +576,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 250,
+      lineNumber: 143,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -1764,7 +584,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 251,
+      lineNumber: 144,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -1772,7 +592,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 252,
+      lineNumber: 145,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -1780,7 +600,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 146,
       columnNumber: 23
     }
   }, "Tutoring Services"), __jsx("h1", {
@@ -1788,7 +608,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 254,
+      lineNumber: 147,
       columnNumber: 23
     }
   }, "\u8BA9\u4F60\u7684GPA\u8F7B\u677E4.0"), __jsx("a", {
@@ -1798,7 +618,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255,
+      lineNumber: 148,
       columnNumber: 23
     }
   }, "\u8FDB\u5165\u5B98\u7F51")))))))), __jsx("div", {
@@ -1806,7 +626,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266,
+      lineNumber: 159,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1814,7 +634,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 267,
+      lineNumber: 160,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -1822,14 +642,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268,
+      lineNumber: 161,
       columnNumber: 13
     }
   }, __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269,
+      lineNumber: 162,
       columnNumber: 15
     }
   }, "\u804C\u4E1A\u54A8\u8BE2")), __jsx("div", {
@@ -1837,14 +657,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271,
+      lineNumber: 164,
       columnNumber: 13
     }
   }, __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272,
+      lineNumber: 165,
       columnNumber: 15
     }
   }, "\u5C97\u4F4D\u76F4\u901A\u8F66")), __jsx("div", {
@@ -1852,14 +672,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274,
+      lineNumber: 167,
       columnNumber: 13
     }
   }, __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 275,
+      lineNumber: 168,
       columnNumber: 15
     }
   }, "VIP Program")), __jsx("div", {
@@ -1867,21 +687,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 170,
       columnNumber: 13
     }
   }, __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 278,
+      lineNumber: 171,
       columnNumber: 15
     }
   }, "\u8BFE\u7A0B\u8F85\u5BFC")))))), __jsx("section", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286,
+      lineNumber: 179,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -1889,7 +709,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 287,
+      lineNumber: 180,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -1897,7 +717,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 288,
+      lineNumber: 181,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1905,14 +725,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289,
+      lineNumber: 182,
       columnNumber: 15
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 183,
       columnNumber: 17
     }
   }, "Easy career, better ", __jsx("span", {
@@ -1922,7 +742,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 183,
       columnNumber: 41
     }
   }, "job."))), __jsx("div", {
@@ -1930,7 +750,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 292,
+      lineNumber: 185,
       columnNumber: 15
     }
   }, __jsx("p", {
@@ -1938,7 +758,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293,
+      lineNumber: 186,
       columnNumber: 17
     }
   }, "EASY CAREER\u662F\u4E00\u5BB6\u5728\u7EBF\u804C\u4E1A\u6559\u80B2\u673A\u6784\uFF0C\u516C\u53F8\u603B\u90E8\u4F4D\u4E8E\u591A\u4F26\u591A\u5E02\u5E02\u4E2D\u5FC3\uFF0C\u662F\u52A0\u62FF\u5927\u7B2C\u4E00\u6559\u80B2\u54C1\u724C Easy Group(\u6613\u7EF4\u6559\u80B2\u96C6\u56E2)\u65D7\u4E0B\u7684\u5B50\u516C\u53F8\u4E4B\u4E00\uFF0C\u81F4\u529B\u4E8E\u5E2E\u52A9\u5168\u7403\u5927\u5B66\u751F\u548C\u5728\u804C\u7CBE\u82F1\uFF0C\u63D0\u4F9B\u4E00\u7AD9\u5F0F\u7684\u5C31\u4E1A\u89E3\u51B3\u65B9\u6848\u3002\u901A\u8FC7\u72EC\u7ACB\u81EA\u4E3B\u7814\u53D1\u7684\u804C\u4E1A\u6280\u80FD\u57F9\u8BAD\u4EA7\u54C1\u548C\u4E00\u5BF9\u4E00\u4F53\u7CFB\u5316\u54A8\u8BE2\u670D\u52A1\uFF0C\u5168\u65B9\u4F4D\u63D0\u5347\u5B66\u5458\u80FD\u529B\u4E0E\u80CC\u666F\u3002\u5728\u91D1\u878D\u3001\u54A8\u8BE2\u3001\u79D1\u6280\u3001\u5FEB\u6D88\u3001\u6570\u636E\u3001\u5E02\u573A\u7B49\u4F17\u591A\u70ED\u95E8\u884C\u4E1A\uFF0C\u52A9\u529B\u5168\u7403\u5927\u5B66\u751F\u5165\u9A7B\u5168\u7403\u524D\u6CBF\u4F01\u4E1A\u3002"))), __jsx("div", {
@@ -1946,7 +766,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 296,
+      lineNumber: 189,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -1956,7 +776,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 297,
+      lineNumber: 190,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -1964,7 +784,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298,
+      lineNumber: 191,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -1972,7 +792,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 299,
+      lineNumber: 192,
       columnNumber: 19
     }
   }), __jsx("h6", {
@@ -1980,7 +800,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 300,
+      lineNumber: 193,
       columnNumber: 19
     }
   }, "Learn Essential Skills"), __jsx("h4", {
@@ -1988,14 +808,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 301,
+      lineNumber: 194,
       columnNumber: 19
     }
   }, "\u804C\u4E1A\u5FC5\u5907\u6280\u80FD"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 302,
+      lineNumber: 195,
       columnNumber: 19
     }
   }, "\u7ED3\u5408\u884C\u4E1A\u5B9E\u6218\u9879\u76EE\uFF0C\u5728\u8BFE\u7A0B\u4E2D\u719F\u7EC3\u638C\u63E1\u4E0D\u540C\u884C\u4E1A\u5DE5\u4F5C\u4E2D\u6240\u9700\u8981\u7684\u5404\u79CD\u6280\u80FD\u3002\u7075\u6D3B\u7684\u7EBF\u4E0A\u52A0\u7EBF\u4E0B\u8BFE\u7A0B\u6A21\u5F0F\u8BA9\u7528\u6237\u5145\u5206\u5229\u7528\u81EA\u5DF1\u7684\u65F6\u95F4\u53BB\u5B66\u4E60\u3002"))), __jsx("div", {
@@ -2006,7 +826,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 305,
+      lineNumber: 198,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2014,7 +834,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306,
+      lineNumber: 199,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -2022,7 +842,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 307,
+      lineNumber: 200,
       columnNumber: 19
     }
   }), __jsx("h6", {
@@ -2030,7 +850,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 308,
+      lineNumber: 201,
       columnNumber: 19
     }
   }, "100% Tailored Training"), __jsx("h4", {
@@ -2038,14 +858,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309,
+      lineNumber: 202,
       columnNumber: 19
     }
   }, "\u6C42\u804C\u6838\u5FC3\u80FD\u529B"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 310,
+      lineNumber: 203,
       columnNumber: 19
     }
   }, "1\u5BF91\u6C42\u804C\u7279\u8BAD\u8BA1\u5212\uFF0C\u4EE5\u4E0B\u7B80\u79F0VIP Program\uFF0C\u65E8\u5728\u4E3A\u5B66\u751F\u63D0\u4F9B\u5B9A\u5236\u5316\u7684\uFF0C\u7CFB\u7EDF\u6027\u5730\u4E00\u7AD9\u5F0F\u6C42\u804C\u6559\u80B2\u54A8\u8BE2\u670D\u52A1,\u9488\u5BF9\u6027\u5730\u51C6\u5907\u5373\u5C06\u5F00\u59CB\u7684\u804C\u573A\u751F\u6DAF\u3002"))), __jsx("div", {
@@ -2055,7 +875,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 313,
+      lineNumber: 206,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2063,7 +883,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 314,
+      lineNumber: 207,
       columnNumber: 17
     }
   }, __jsx("i", {
@@ -2071,7 +891,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 315,
+      lineNumber: 208,
       columnNumber: 19
     }
   }), __jsx("h6", {
@@ -2079,7 +899,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316,
+      lineNumber: 209,
       columnNumber: 19
     }
   }, "Guarantee Offer Program"), __jsx("h4", {
@@ -2087,14 +907,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 317,
+      lineNumber: 210,
       columnNumber: 19
     }
   }, "\u4FDDOffer\u5168\u804C/\u5B9E\u4E60\u9879\u76EE"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 318,
+      lineNumber: 211,
       columnNumber: 19
     }
   }, "\u52A9\u7533\u5317\u7F8E\u77E5\u540D\u5927\u516C\u53F8\uFF0C\u521B\u6295\u516C\u53F8\uFF0C\u4E16\u754C\u4E94\u767E\u5F3A\u7B49\u3002\u6839\u636E\u5B66\u751F\u80FD\u529B\u7279\u70B9\u53CA\u4E2A\u4EBA\u9700\u6C42\uFF0C\u5E2E\u52A9\u5176\u5B8C\u6210\u5404\u7C7B\u578B\u804C\u4F4D\u7533\u8BF7\u3002")))))), __jsx("section", {
@@ -2102,7 +922,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 327,
+      lineNumber: 220,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2110,7 +930,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 328,
+      lineNumber: 221,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -2118,7 +938,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329,
+      lineNumber: 222,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2126,7 +946,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 330,
+      lineNumber: 223,
       columnNumber: 15
     }
   }, __jsx("h2", {
@@ -2134,14 +954,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 224,
       columnNumber: 17
     }
   }, "VIP Program ", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 224,
       columnNumber: 48
     }
   }), __jsx("b", {
@@ -2151,14 +971,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 224,
       columnNumber: 54
     }
   }, "\u5B9A\u5236"), "\u4E8E\u4F60\u7684", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 224,
       columnNumber: 93
     }
   }), "\u5C5E\u6C42\u804C\u8BA1\u5212"), __jsx("ul", {
@@ -2166,7 +986,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332,
+      lineNumber: 225,
       columnNumber: 17
     }
   }, __jsx("li", {
@@ -2174,7 +994,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333,
+      lineNumber: 226,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2182,14 +1002,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334,
+      lineNumber: 227,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335,
+      lineNumber: 228,
       columnNumber: 21
     }
   }, "\u884C\u4E1A\u8D8B\u52BF\u524D\u77BB Industrial Insights")), __jsx("li", {
@@ -2197,7 +1017,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 337,
+      lineNumber: 230,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2205,14 +1025,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338,
+      lineNumber: 231,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339,
+      lineNumber: 232,
       columnNumber: 21
     }
   }, "\u6C42\u804C\u89C4\u5212 Consultation")), __jsx("li", {
@@ -2220,7 +1040,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 341,
+      lineNumber: 234,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2228,14 +1048,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 342,
+      lineNumber: 235,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 343,
+      lineNumber: 236,
       columnNumber: 21
     }
   }, "\u5C65\u5386\u7CBE\u4FEE Profile Improvement")), __jsx("li", {
@@ -2243,7 +1063,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345,
+      lineNumber: 238,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2251,14 +1071,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 346,
+      lineNumber: 239,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 347,
+      lineNumber: 240,
       columnNumber: 21
     }
   }, "\u9762\u8BD5\u76F4\u901A\u8F66 Interview Package")), __jsx("li", {
@@ -2266,7 +1086,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 349,
+      lineNumber: 242,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2274,14 +1094,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 350,
+      lineNumber: 243,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 351,
+      lineNumber: 244,
       columnNumber: 21
     }
   }, "\u6C42\u804C\u793E\u4EA4 Networking")), __jsx("li", {
@@ -2289,7 +1109,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 353,
+      lineNumber: 246,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2297,14 +1117,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354,
+      lineNumber: 247,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 355,
+      lineNumber: 248,
       columnNumber: 21
     }
   }, "\u5728\u7EBF\u8BFE\u5802 Hard Skills Training")), __jsx("li", {
@@ -2312,7 +1132,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 357,
+      lineNumber: 250,
       columnNumber: 19
     }
   }, __jsx("i", {
@@ -2320,14 +1140,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 358,
+      lineNumber: 251,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 359,
+      lineNumber: 252,
       columnNumber: 21
     }
   }, "\u540D\u4F01\u76F4\u63A8 Job Placement Opportunity"))), __jsx("a", {
@@ -2335,7 +1155,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362,
+      lineNumber: 255,
       columnNumber: 17
     }
   }, __jsx("button", {
@@ -2344,7 +1164,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 363,
+      lineNumber: 256,
       columnNumber: 19
     }
   }, "\u7ACB\u523B\u54A8\u8BE2 ", __jsx("i", {
@@ -2352,7 +1172,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 363,
+      lineNumber: 256,
       columnNumber: 102
     }
   })))), __jsx("div", {
@@ -2360,7 +1180,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 365,
+      lineNumber: 258,
       columnNumber: 15
     }
   }, __jsx("ul", {
@@ -2368,7 +1188,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366,
+      lineNumber: 259,
       columnNumber: 17
     }
   }, __jsx("li", {
@@ -2377,7 +1197,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 367,
+      lineNumber: 260,
       columnNumber: 19
     }
   }, __jsx("figure", {
@@ -2385,7 +1205,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 368,
+      lineNumber: 261,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -2396,7 +1216,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 369,
+      lineNumber: 262,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -2404,14 +1224,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 370,
+      lineNumber: 263,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 371,
+      lineNumber: 264,
       columnNumber: 27
     }
   }, "VIP Mentorship Program"))))), __jsx("li", {
@@ -2420,7 +1240,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 376,
+      lineNumber: 269,
       columnNumber: 19
     }
   }, __jsx("figure", {
@@ -2428,7 +1248,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377,
+      lineNumber: 270,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -2439,7 +1259,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378,
+      lineNumber: 271,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -2447,14 +1267,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 379,
+      lineNumber: 272,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380,
+      lineNumber: 273,
       columnNumber: 27
     }
   }, "Profile Improvement Package"))))), __jsx("li", {
@@ -2463,7 +1283,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 385,
+      lineNumber: 278,
       columnNumber: 19
     }
   }, __jsx("figure", {
@@ -2471,7 +1291,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 386,
+      lineNumber: 279,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -2482,7 +1302,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 387,
+      lineNumber: 280,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -2490,21 +1310,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 388,
+      lineNumber: 281,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 389,
+      lineNumber: 282,
       columnNumber: 27
     }
   }, "Interview Package")))))))))), __jsx("section", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 401,
+      lineNumber: 294,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2512,7 +1332,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 402,
+      lineNumber: 295,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -2520,7 +1340,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 403,
+      lineNumber: 296,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2528,7 +1348,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 404,
+      lineNumber: 297,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -2536,14 +1356,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 405,
+      lineNumber: 298,
       columnNumber: 17
     }
   }, "Essential Courses"), __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 406,
+      lineNumber: 299,
       columnNumber: 17
     }
   }, "\u70ED\u95E8\u6280\u80FD\u8BFE\u7A0B"))), __jsx("div", {
@@ -2551,7 +1371,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 409,
+      lineNumber: 302,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2559,7 +1379,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 410,
+      lineNumber: 303,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -2567,7 +1387,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 411,
+      lineNumber: 304,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -2575,7 +1395,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 412,
+      lineNumber: 305,
       columnNumber: 15
     }
   }), __jsx("div", {
@@ -2583,7 +1403,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 413,
+      lineNumber: 306,
       columnNumber: 15
     }
   })))), __jsx("section", {
@@ -2591,7 +1411,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 418,
+      lineNumber: 311,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2599,7 +1419,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 419,
+      lineNumber: 312,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -2607,7 +1427,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 420,
+      lineNumber: 313,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2615,21 +1435,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 421,
+      lineNumber: 314,
       columnNumber: 15
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422,
+      lineNumber: 315,
       columnNumber: 17
     }
   }, "\u8FD9\u91CC\u662F", __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422,
+      lineNumber: 315,
       columnNumber: 24
     }
   }), "\u4F60\u8DDD\u79BB", __jsx("span", {
@@ -2639,21 +1459,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422,
+      lineNumber: 315,
       columnNumber: 33
     }
   }, "\u9AD8\u85AAOffer"), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422,
+      lineNumber: 315,
       columnNumber: 80
     }
   }), "\u6700\u8FD1\u7684\u5730\u65B9"), __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 423,
+      lineNumber: 316,
       columnNumber: 17
     }
   }, "EASY CAREER\u521B\u7ACB\u4E8E2017\u5E74\u521D\uFF0C\u81F4\u529B\u4E8E\u6574\u5408\u5168\u7403\u5404\u884C\u4E1A\u7684\u804C\u573A\u7CBE\u82F1\uFF0C\u4E3A\u5927\u5B66\u751F\u63D0\u4F9B\u4F53\u7CFB\u5316\uFF0C\u5B9A\u5236\u5316\u7684\u804C\u4E1A\u6559\u80B2\uFF0C\u901A\u8FC71\u5BF91\u3001\u591A\u5BF91\u548C\u73ED\u8BFE\u5B9E\u65F6\u5728\u7EBF\u89C6\u9891/\u76F4\u64AD\u5B66\u4E60\u5E73\u53F0\uFF0C\u5C06\u5168\u7403\u5927\u5B66\u751F\u548C\u804C\u573A\u7CBE\u82F1\u8FDB\u884C\u5BF9\u63A5\u3002 \u6211\u4EEC\u4ECE\u5E02\u573A\u7684\u89D2\u5EA6\u548C\u5BA2\u6237\u7684\u9700\u6C42\u51FA\u53D1\uFF0C\u4E3A\u5B66\u5458\u5EFA\u7ACB\u5B8C\u5584\u7684\u804C\u4E1A\u89C4\u5212\u65B9\u6848\u53CA\u4F53\u7CFB\u5316\u7684\u8BFE\u7A0B\u89C4\u5212\uFF0C\u4EE5\u63D0\u5347\u5B66\u5458\u804C\u573A\u6838\u5FC3\u7ADE\u4E89\u529B\u4E3A\u4E2D\u5FC3\uFF0C\u5F00\u5C55\u9488\u5BF9\u6027\u7684\u8F85\u5BFC\u4E0E\u57F9\u8BAD\uFF0C\u5E2E\u52A9\u5B66\u5458\u987A\u5229\u8FDB\u5165\u76EE\u6807\u884C\u4E1A\u4E0E\u516C\u53F8\u5C97\u4F4D\u3002")), __jsx("div", {
@@ -2661,7 +1481,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 426,
+      lineNumber: 319,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2669,7 +1489,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 427,
+      lineNumber: 320,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -2677,7 +1497,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 428,
+      lineNumber: 321,
       columnNumber: 19
     }
   }, __jsx("h4", {
@@ -2685,7 +1505,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 429,
+      lineNumber: 322,
       columnNumber: 21
     }
   }, "\u7B7E\u7EA6\u7CBE\u82F1\u5BFC\u5E08\u6DD8\u6C70\u7387"), __jsx("div", {
@@ -2693,7 +1513,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 430,
+      lineNumber: 323,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2701,7 +1521,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 431,
+      lineNumber: 324,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -2716,14 +1536,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432,
+      lineNumber: 325,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432,
+      lineNumber: 325,
       columnNumber: 154
     }
   }, "70%"))))), __jsx("div", {
@@ -2731,7 +1551,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436,
+      lineNumber: 329,
       columnNumber: 19
     }
   }, __jsx("h4", {
@@ -2739,7 +1559,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 437,
+      lineNumber: 330,
       columnNumber: 21
     }
   }, "\u56DB\u4E2A\u6708\u5185\u83B7\u5F97Offer\u6210\u529F\u7387"), __jsx("div", {
@@ -2747,7 +1567,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 438,
+      lineNumber: 331,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2755,7 +1575,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 439,
+      lineNumber: 332,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -2770,14 +1590,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 440,
+      lineNumber: 333,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 440,
+      lineNumber: 333,
       columnNumber: 156
     }
   }, "87.3%"))))), __jsx("div", {
@@ -2785,7 +1605,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 444,
+      lineNumber: 337,
       columnNumber: 19
     }
   }, __jsx("h4", {
@@ -2793,7 +1613,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 445,
+      lineNumber: 338,
       columnNumber: 21
     }
   }, "\u7528\u6237\u6EE1\u610F\u5EA6"), __jsx("div", {
@@ -2801,7 +1621,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 446,
+      lineNumber: 339,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -2809,7 +1629,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 447,
+      lineNumber: 340,
       columnNumber: 23
     }
   }, __jsx("div", {
@@ -2824,14 +1644,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 448,
+      lineNumber: 341,
       columnNumber: 25
     }
   }, __jsx("span", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 448,
+      lineNumber: 341,
       columnNumber: 156
     }
   }, "100%")))))))))), __jsx("section", {
@@ -2845,7 +1665,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 458,
+      lineNumber: 351,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -2853,7 +1673,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 459,
+      lineNumber: 352,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -2861,7 +1681,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 460,
+      lineNumber: 353,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2869,7 +1689,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 461,
+      lineNumber: 354,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -2877,21 +1697,21 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 462,
+      lineNumber: 355,
       columnNumber: 17
     }
   }, "OUR MENTORS"), __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 463,
+      lineNumber: 356,
       columnNumber: 17
     }
   }, "\u6211\u4EEC\u7684\u5BFC\u5E08\u6765\u81EA\u4E8E"))), __jsx("br", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 466,
+      lineNumber: 359,
       columnNumber: 13
     }
   }), __jsx("div", {
@@ -2899,7 +1719,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 467,
+      lineNumber: 360,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -2907,7 +1727,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 468,
+      lineNumber: 361,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -2915,7 +1735,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 469,
+      lineNumber: 362,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -2923,7 +1743,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 470,
+      lineNumber: 363,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -2931,7 +1751,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 471,
+      lineNumber: 364,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -2939,7 +1759,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 472,
+      lineNumber: 365,
       columnNumber: 23
     }
   }, "\u4E2D\u56FD"), __jsx("span", {
@@ -2947,7 +1767,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 473,
+      lineNumber: 366,
       columnNumber: 23
     }
   }, "China"), __jsx("h6", {
@@ -2955,7 +1775,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 474,
+      lineNumber: 367,
       columnNumber: 23
     }
   }, "\u9999\u6E2F\u82B1\u65D7\u94F6\u884C"), __jsx("span", {
@@ -2963,7 +1783,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 475,
+      lineNumber: 368,
       columnNumber: 23
     }
   }, "Citibank"), __jsx("h6", {
@@ -2971,7 +1791,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 476,
+      lineNumber: 369,
       columnNumber: 23
     }
   }, "\u9999\u6E2F\u5DF4\u514B\u83B1\u94F6\u884C"), __jsx("span", {
@@ -2979,7 +1799,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 477,
+      lineNumber: 370,
       columnNumber: 23
     }
   }, "Barclays"), __jsx("h6", {
@@ -2987,7 +1807,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 478,
+      lineNumber: 371,
       columnNumber: 23
     }
   }, "\u666E\u534E\u6C38\u9053\u4E2D\u56FD"), __jsx("span", {
@@ -2995,7 +1815,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 479,
+      lineNumber: 372,
       columnNumber: 23
     }
   }, "PwC"), __jsx("h6", {
@@ -3003,7 +1823,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 480,
+      lineNumber: 373,
       columnNumber: 23
     }
   }, "\u5B89\u6C38\u4E2D\u56FD"), __jsx("span", {
@@ -3011,7 +1831,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 481,
+      lineNumber: 374,
       columnNumber: 23
     }
   }, "Ernst & Young"), __jsx("h6", {
@@ -3019,7 +1839,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 482,
+      lineNumber: 375,
       columnNumber: 23
     }
   }, "\u6BD5\u9A6C\u5A01\u4E2D\u56FD"), __jsx("span", {
@@ -3027,7 +1847,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 483,
+      lineNumber: 376,
       columnNumber: 23
     }
   }, "KPMG"), __jsx("h6", {
@@ -3035,7 +1855,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 484,
+      lineNumber: 377,
       columnNumber: 23
     }
   }, "\u817E\u8BAF"), __jsx("span", {
@@ -3043,7 +1863,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 485,
+      lineNumber: 378,
       columnNumber: 23
     }
   }, "Tencent"), __jsx("h6", {
@@ -3051,7 +1871,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 486,
+      lineNumber: 379,
       columnNumber: 23
     }
   }, "BBDO\u73AF\u7403"), __jsx("span", {
@@ -3059,7 +1879,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 487,
+      lineNumber: 380,
       columnNumber: 23
     }
   }, "BBDO"), __jsx("h6", {
@@ -3067,7 +1887,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488,
+      lineNumber: 381,
       columnNumber: 23
     }
   }, "\u4EAC\u4E1C"), __jsx("span", {
@@ -3075,7 +1895,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489,
+      lineNumber: 382,
       columnNumber: 23
     }
   }, "JD"))), __jsx("div", {
@@ -3083,7 +1903,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492,
+      lineNumber: 385,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3091,7 +1911,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 493,
+      lineNumber: 386,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -3099,7 +1919,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 494,
+      lineNumber: 387,
       columnNumber: 23
     }
   }, "\u5317\u7F8E"), __jsx("span", {
@@ -3107,7 +1927,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 495,
+      lineNumber: 388,
       columnNumber: 23
     }
   }, "North America"), __jsx("h6", {
@@ -3115,7 +1935,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 496,
+      lineNumber: 389,
       columnNumber: 23
     }
   }, "CPPIB"), __jsx("span", {
@@ -3123,7 +1943,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 497,
+      lineNumber: 390,
       columnNumber: 23
     }
   }, "\u5168\u7403\u5341\u5927\u516C\u5171\u9000\u4F11\u57FA\u91D1"), __jsx("h6", {
@@ -3131,7 +1951,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 498,
+      lineNumber: 391,
       columnNumber: 23
     }
   }, "OTPP"), __jsx("span", {
@@ -3139,7 +1959,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 499,
+      lineNumber: 392,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u6700\u5927\u7684\u5355\u4E00\u578B\u4E13\u4E1A\u5316\u9000\u4F11\u57FA\u91D1"), __jsx("h6", {
@@ -3147,7 +1967,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 500,
+      lineNumber: 393,
       columnNumber: 23
     }
   }, "\u666E\u534E\u6C38\u9053\u52A0\u62FF\u5927"), __jsx("span", {
@@ -3155,7 +1975,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 501,
+      lineNumber: 394,
       columnNumber: 23
     }
   }, "PwC"), __jsx("h6", {
@@ -3163,7 +1983,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 502,
+      lineNumber: 395,
       columnNumber: 23
     }
   }, "\u5FB7\u52E4\u52A0\u62FF\u5927"), __jsx("span", {
@@ -3171,7 +1991,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 503,
+      lineNumber: 396,
       columnNumber: 23
     }
   }, "Deloitte"), __jsx("h6", {
@@ -3179,7 +1999,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 504,
+      lineNumber: 397,
       columnNumber: 23
     }
   }, "\u6BD5\u9A6C\u5A01\u52A0\u62FF\u5927"), __jsx("span", {
@@ -3187,7 +2007,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 505,
+      lineNumber: 398,
       columnNumber: 23
     }
   }, "KPMG"), __jsx("h6", {
@@ -3195,7 +2015,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 506,
+      lineNumber: 399,
       columnNumber: 23
     }
   }, "\u6EE1\u5730\u53EF\u94F6\u884C"), __jsx("span", {
@@ -3203,7 +2023,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 507,
+      lineNumber: 400,
       columnNumber: 23
     }
   }, "BMO"), __jsx("h6", {
@@ -3211,7 +2031,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 508,
+      lineNumber: 401,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u7687\u5BB6\u94F6\u884C"), __jsx("span", {
@@ -3219,7 +2039,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 509,
+      lineNumber: 402,
       columnNumber: 23
     }
   }, "RBC"), __jsx("h6", {
@@ -3227,7 +2047,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 510,
+      lineNumber: 403,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u5E1D\u56FD\u5546\u4E1A\u94F6\u884C"), __jsx("span", {
@@ -3235,7 +2055,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 511,
+      lineNumber: 404,
       columnNumber: 23
     }
   }, "CIBC"), __jsx("h6", {
@@ -3243,7 +2063,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 512,
+      lineNumber: 405,
       columnNumber: 23
     }
   }, "\u9053\u660E\u94F6\u884C"), __jsx("span", {
@@ -3251,7 +2071,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 513,
+      lineNumber: 406,
       columnNumber: 23
     }
   }, "TD"), __jsx("h6", {
@@ -3259,7 +2079,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 514,
+      lineNumber: 407,
       columnNumber: 23
     }
   }, "\u4E30\u4E1A\u94F6\u884C"), __jsx("span", {
@@ -3267,7 +2087,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 515,
+      lineNumber: 408,
       columnNumber: 23
     }
   }, "Scotiabank"))), __jsx("div", {
@@ -3275,7 +2095,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 518,
+      lineNumber: 411,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3283,7 +2103,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 519,
+      lineNumber: 412,
       columnNumber: 21
     }
   }, __jsx("h5", {
@@ -3291,7 +2111,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 520,
+      lineNumber: 413,
       columnNumber: 23
     }
   }, "\u5317\u7F8E"), __jsx("span", {
@@ -3299,7 +2119,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 521,
+      lineNumber: 414,
       columnNumber: 23
     }
   }, "North America"), __jsx("h6", {
@@ -3307,7 +2127,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 522,
+      lineNumber: 415,
       columnNumber: 23
     }
   }, "\u8C37\u6B4C"), __jsx("span", {
@@ -3315,7 +2135,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 523,
+      lineNumber: 416,
       columnNumber: 23
     }
   }, "Google"), __jsx("h6", {
@@ -3323,7 +2143,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 524,
+      lineNumber: 417,
       columnNumber: 23
     }
   }, "\u5FAE\u8F6F"), __jsx("span", {
@@ -3331,7 +2151,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 525,
+      lineNumber: 418,
       columnNumber: 23
     }
   }, "Microsoft"), __jsx("h6", {
@@ -3339,7 +2159,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 526,
+      lineNumber: 419,
       columnNumber: 23
     }
   }, "\u7B2C\u4E00\u8D44\u672C"), __jsx("span", {
@@ -3347,7 +2167,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 527,
+      lineNumber: 420,
       columnNumber: 23
     }
   }, "Capital One"), __jsx("h6", {
@@ -3355,7 +2175,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 528,
+      lineNumber: 421,
       columnNumber: 23
     }
   }, "\u6C38\u660E\u91D1\u878D"), __jsx("span", {
@@ -3363,7 +2183,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 529,
+      lineNumber: 422,
       columnNumber: 23
     }
   }, "Sunlife Financial"), __jsx("h6", {
@@ -3371,7 +2191,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 530,
+      lineNumber: 423,
       columnNumber: 23
     }
   }, "\u4F20\u7ACB\u5A92\u4F53"), __jsx("span", {
@@ -3379,7 +2199,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 531,
+      lineNumber: 424,
       columnNumber: 23
     }
   }, "Mindshare"), __jsx("h6", {
@@ -3387,7 +2207,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532,
+      lineNumber: 425,
       columnNumber: 23
     }
   }, "SAP"), __jsx("span", {
@@ -3395,7 +2215,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 533,
+      lineNumber: 426,
       columnNumber: 23
     }
   }, "Software Solutions"), __jsx("h6", {
@@ -3403,7 +2223,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 534,
+      lineNumber: 427,
       columnNumber: 23
     }
   }, "Rogers"), __jsx("span", {
@@ -3411,7 +2231,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 535,
+      lineNumber: 428,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u6700\u5927\u79FB\u52A8\u8FD0\u8425\u5546")))))))), __jsx("section", {
@@ -3419,7 +2239,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 545,
+      lineNumber: 438,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -3427,7 +2247,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 546,
+      lineNumber: 439,
       columnNumber: 11
     }
   }), __jsx("div", {
@@ -3435,7 +2255,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 557,
+      lineNumber: 450,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -3443,7 +2263,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 558,
+      lineNumber: 451,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3451,7 +2271,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 559,
+      lineNumber: 452,
       columnNumber: 15
     }
   }, __jsx("span", {
@@ -3459,14 +2279,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 560,
+      lineNumber: 453,
       columnNumber: 17
     }
   }, "POWERED BY EASYGROUP"), __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 561,
+      lineNumber: 454,
       columnNumber: 17
     }
   }, "Easy Group \u6613\u7EF4\u96C6\u56E2"))), __jsx("div", {
@@ -3474,7 +2294,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 564,
+      lineNumber: 457,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3482,7 +2302,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 565,
+      lineNumber: 458,
       columnNumber: 15
     }
   }, __jsx("img", {
@@ -3492,7 +2312,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 566,
+      lineNumber: 459,
       columnNumber: 17
     }
   }))), __jsx("div", {
@@ -3500,7 +2320,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 569,
+      lineNumber: 462,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3508,14 +2328,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 570,
+      lineNumber: 463,
       columnNumber: 15
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 571,
+      lineNumber: 464,
       columnNumber: 17
     }
   }, "Easy Career\u96B6\u5C5E\u4E8EEasy Group\u96C6\u56E2\u3002\u96C6\u56E2\u65D7\u4E0B\u62E5\u6709Easy 4.0 (\u6613\u9014\u6559\u80B2)\uFF0C\u5B5C\u5FAAEdu, Easy Career (\u6613\u804C)\uFF0CHiOffer\uFF0CWeCare\u5FAE\u81F4\u7B49\u9644\u5C5E\u670D\u52A1\u57F9\u8BAD\u4F53\u7CFB\u3002\u96C6\u56E2\u603B\u90E8\u4F4D\u4E8E\u4E2D\u56FD\u6DF1\u5733\uFF0C\u5728\u52A0\u62FF\u5927\u3001\u7F8E\u56FD\u7B49\u5730\u533A\u8BBE\u6709\u6D77\u5916\u5206\u90E8\u3002\u4EE5\u6559\u80B2\u4F5C\u4E3A\u51FA\u53D1\u70B9\uFF0C \u201C\u8D23\u4EFB\u5FC3\u81F3\u4E0A\u201D \u4F5C\u4E3A\u6838\u5FC3\u7406\u5FF5\uFF0C\u96C6\u56E2\u4E1A\u52A1\u6DB5\u76D6\u7559\u5B66\u89C4\u5212\uFF0C\u6D77\u5916\u751F\u6D3B\u8F85\u52A9\uFF0C\u9AD8\u7B49\u6559\u80B2\u8F85\u5BFC\uFF0C\u6C42\u804C\u54A8\u8BE2\uFF0C\u7814\u7A76\u751F\u7533\u8BF7\uFF0C\u521B\u4E1A\u5B75\u5316\u7B49\u9886\u57DF\u3002\u5207\u5B9E\u6253\u9020\u7559\u5B66\u4EA7\u4E1A\u95ED\u73AF\uFF0C\u4E3A\u60F3\u8981\u7559\u5B66\uFF0C\u5DF2\u7ECF\u7559\u5B66\uFF0C\u5B8C\u6210\u7559\u5B66\u7684\u5B66\u5B50\u4EE5\u53CA\u4ED6\u4EEC\u7684\u5BB6\u957F\u521B\u9020\u771F\u6B63\u6709\u4EF7\u503C\u7684\u670D\u52A1\u3002\u3002"))), __jsx("div", {
@@ -3525,7 +2345,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 574,
+      lineNumber: 467,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3533,7 +2353,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 575,
+      lineNumber: 468,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -3546,7 +2366,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 576,
+      lineNumber: 469,
       columnNumber: 17
     }
   }, __jsx("article", {
@@ -3554,7 +2374,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 577,
+      lineNumber: 470,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3565,7 +2385,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 578,
+      lineNumber: 471,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3573,7 +2393,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 579,
+      lineNumber: 472,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3581,7 +2401,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 580,
+      lineNumber: 473,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3589,14 +2409,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 581,
+      lineNumber: 474,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 582,
+      lineNumber: 475,
       columnNumber: 25
     }
   }, "Easy Career")))), __jsx("article", {
@@ -3604,7 +2424,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 586,
+      lineNumber: 479,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3615,7 +2435,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 587,
+      lineNumber: 480,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3623,7 +2443,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 588,
+      lineNumber: 481,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3631,7 +2451,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 589,
+      lineNumber: 482,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3639,14 +2459,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 590,
+      lineNumber: 483,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 591,
+      lineNumber: 484,
       columnNumber: 25
     }
   }, "\u8BAE\u5458\u53C2\u4F1A")))), __jsx("article", {
@@ -3654,7 +2474,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 595,
+      lineNumber: 488,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3665,7 +2485,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 596,
+      lineNumber: 489,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3673,7 +2493,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 597,
+      lineNumber: 490,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3681,7 +2501,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 598,
+      lineNumber: 491,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3689,14 +2509,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 599,
+      lineNumber: 492,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 600,
+      lineNumber: 493,
       columnNumber: 25
     }
   }, "\u6559\u5B66\u7814\u8BA8\u4F1A")))), __jsx("article", {
@@ -3704,7 +2524,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 604,
+      lineNumber: 497,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3715,7 +2535,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 605,
+      lineNumber: 498,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3723,7 +2543,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 606,
+      lineNumber: 499,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3731,7 +2551,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 607,
+      lineNumber: 500,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3739,14 +2559,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 608,
+      lineNumber: 501,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 609,
+      lineNumber: 502,
       columnNumber: 25
     }
   }, "\u96C6\u56E2\u5E74\u4F1A")))), __jsx("article", {
@@ -3754,7 +2574,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 613,
+      lineNumber: 506,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3765,7 +2585,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 614,
+      lineNumber: 507,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3773,7 +2593,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 615,
+      lineNumber: 508,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3781,7 +2601,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 616,
+      lineNumber: 509,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3789,14 +2609,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 617,
+      lineNumber: 510,
       columnNumber: 25
     }
   }, "2017"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 618,
+      lineNumber: 511,
       columnNumber: 25
     }
   }, "\u5317\u4EAC\u89C1\u9762\u4F1A")))), __jsx("article", {
@@ -3804,7 +2624,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 622,
+      lineNumber: 515,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3815,7 +2635,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 623,
+      lineNumber: 516,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3823,7 +2643,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 624,
+      lineNumber: 517,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3831,7 +2651,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 625,
+      lineNumber: 518,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3839,14 +2659,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 626,
+      lineNumber: 519,
       columnNumber: 25
     }
   }, "2018"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 627,
+      lineNumber: 520,
       columnNumber: 25
     }
   }, "\u5E74\u4F1A\u8C22\u5E55")))), __jsx("article", {
@@ -3854,7 +2674,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 631,
+      lineNumber: 524,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3865,7 +2685,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 632,
+      lineNumber: 525,
       columnNumber: 21
     }
   }), __jsx("a", {
@@ -3873,7 +2693,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 633,
+      lineNumber: 526,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -3881,7 +2701,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 634,
+      lineNumber: 527,
       columnNumber: 23
     }
   }, __jsx("span", {
@@ -3889,14 +2709,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 635,
+      lineNumber: 528,
       columnNumber: 25
     }
   }, "2014"), __jsx("h5", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 636,
+      lineNumber: 529,
       columnNumber: 25
     }
   }, "\u767E\u4EBAReview"))))))))), __jsx("section", {
@@ -3905,7 +2725,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 647,
+      lineNumber: 540,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -3913,7 +2733,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 648,
+      lineNumber: 541,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -3921,7 +2741,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 649,
+      lineNumber: 542,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3929,14 +2749,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 650,
+      lineNumber: 543,
       columnNumber: 15
     }
   }, __jsx("h2", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 651,
+      lineNumber: 544,
       columnNumber: 17
     }
   }, "\u6700\u8FD1\u4E8B\u4EF6"))), __jsx("div", {
@@ -3944,7 +2764,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 654,
+      lineNumber: 547,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -3952,7 +2772,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 655,
+      lineNumber: 548,
       columnNumber: 15
     }
   }, __jsx("article", {
@@ -3960,7 +2780,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 656,
+      lineNumber: 549,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -3971,7 +2791,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 657,
+      lineNumber: 550,
       columnNumber: 19
     }
   }), __jsx("div", {
@@ -3979,7 +2799,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 658,
+      lineNumber: 551,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -3987,7 +2807,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 659,
+      lineNumber: 552,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -3995,14 +2815,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 660,
+      lineNumber: 553,
       columnNumber: 23
     }
   }, "News"), __jsx("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 661,
+      lineNumber: 554,
       columnNumber: 23
     }
   }, "\u52A0\u62FF\u5927\u5546\u8D38\u90E8\u957F\u5BB4\u4F1A")), __jsx("div", {
@@ -4010,14 +2830,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 663,
+      lineNumber: 556,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 664,
+      lineNumber: 557,
       columnNumber: 23
     }
   }, "Easy Group\u53D7\u9080\u53C2\u52A0\u52A0\u62FF\u5927\u5546\u8D38\u90E8\u957F\u5348\u5BB4"))))), __jsx("div", {
@@ -4025,7 +2845,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 669,
+      lineNumber: 562,
       columnNumber: 15
     }
   }, __jsx("article", {
@@ -4033,7 +2853,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 670,
+      lineNumber: 563,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4044,7 +2864,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 671,
+      lineNumber: 564,
       columnNumber: 19
     }
   }), __jsx("div", {
@@ -4052,7 +2872,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 672,
+      lineNumber: 565,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -4060,7 +2880,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 673,
+      lineNumber: 566,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -4068,14 +2888,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 674,
+      lineNumber: 567,
       columnNumber: 23
     }
   }, "News"), __jsx("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 675,
+      lineNumber: 568,
       columnNumber: 23
     }
   }, "2018\u4E2D\u56FD\u798F\u5E03\u65AF30 Under 30")), __jsx("div", {
@@ -4083,14 +2903,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 677,
+      lineNumber: 570,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 678,
+      lineNumber: 571,
       columnNumber: 23
     }
   }, "Easy Group\u521B\u59CB\u4EBAJacky Zhang\u4E0A\u699C2018\u4E2D\u56FD\u798F\u5E03\u65AF30\u4F4D30\u5C81\u4EE5\u4E0B\u7CBE\u82F1\u699C"))))), __jsx("div", {
@@ -4098,7 +2918,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 683,
+      lineNumber: 576,
       columnNumber: 15
     }
   }, __jsx("article", {
@@ -4106,7 +2926,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 684,
+      lineNumber: 577,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4117,7 +2937,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 685,
+      lineNumber: 578,
       columnNumber: 19
     }
   }), __jsx("div", {
@@ -4125,7 +2945,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 686,
+      lineNumber: 579,
       columnNumber: 19
     }
   }, __jsx("div", {
@@ -4133,7 +2953,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 687,
+      lineNumber: 580,
       columnNumber: 21
     }
   }, __jsx("span", {
@@ -4141,14 +2961,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 688,
+      lineNumber: 581,
       columnNumber: 23
     }
   }, "News"), __jsx("h3", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 689,
+      lineNumber: 582,
       columnNumber: 23
     }
   }, "\u83B7\u5F97Pre-A\u8F6E1000\u4E07\u878D\u8D44")), __jsx("div", {
@@ -4156,14 +2976,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 691,
+      lineNumber: 584,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 692,
+      lineNumber: 585,
       columnNumber: 23
     }
   }, "\u606D\u559CEasy Group\u83B7\u5F97Pre-A\u8F6E1000\u4E07\u6218\u7565\u6295\u8D44")))))))), __jsx("footer", {
@@ -4171,7 +2991,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 702,
+      lineNumber: 595,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -4179,7 +2999,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 703,
+      lineNumber: 596,
       columnNumber: 11
     }
   }, __jsx("div", {
@@ -4187,7 +3007,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 704,
+      lineNumber: 597,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -4195,7 +3015,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 705,
+      lineNumber: 598,
       columnNumber: 15
     }
   }, __jsx("div", {
@@ -4203,7 +3023,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 706,
+      lineNumber: 599,
       columnNumber: 17
     }
   }, __jsx("ul", {
@@ -4211,7 +3031,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 707,
+      lineNumber: 600,
       columnNumber: 19
     }
   }, __jsx("li", {
@@ -4219,7 +3039,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 708,
+      lineNumber: 601,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4228,7 +3048,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 709,
+      lineNumber: 602,
       columnNumber: 23
     }
   }, "\u8054\u7CFB\u6211\u4EEC")), __jsx("li", {
@@ -4236,7 +3056,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 711,
+      lineNumber: 604,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4245,7 +3065,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 712,
+      lineNumber: 605,
       columnNumber: 23
     }
   }, "\u52A0\u5165\u6211\u4EEC")), __jsx("li", {
@@ -4253,7 +3073,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 714,
+      lineNumber: 607,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4262,7 +3082,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 715,
+      lineNumber: 608,
       columnNumber: 23
     }
   }, "Legal Information")))), __jsx("div", {
@@ -4270,7 +3090,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 719,
+      lineNumber: 612,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -4280,7 +3100,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 720,
+      lineNumber: 613,
       columnNumber: 19
     }
   })), __jsx("div", {
@@ -4288,7 +3108,7 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 722,
+      lineNumber: 615,
       columnNumber: 17
     }
   }, __jsx("ul", {
@@ -4296,14 +3116,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 723,
+      lineNumber: 616,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 724,
+      lineNumber: 617,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4313,14 +3133,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 724,
+      lineNumber: 617,
       columnNumber: 25
     }
   })), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 725,
+      lineNumber: 618,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4330,14 +3150,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 725,
+      lineNumber: 618,
       columnNumber: 25
     }
   })), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 726,
+      lineNumber: 619,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4347,14 +3167,14 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 726,
+      lineNumber: 619,
       columnNumber: 25
     }
   })), __jsx("li", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 727,
+      lineNumber: 620,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4363,18 +3183,468 @@ function Home() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 727,
+      lineNumber: 620,
       columnNumber: 25
     }
   })))))))));
 }
 
-; // Home.getInitialProps = async ({ req }) => {
-//   const userAgent = req ? req.headers['user-agent'] || '' : navigator.userAgent;
-//   return { userAgent };
-// };
-
+;
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./pages/navBar.tsx":
+/*!**************************!*\
+  !*** ./pages/navBar.tsx ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _this = undefined,
+    _jsxFileName = "/Users/iNks/Documents/WORK/ezcareer/ezc-nextjs/pages/navBar.tsx";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var Navbar = function Navbar() {
+  return __jsx("header", {
+    className: "header-sticky header-dark",
+    style: {
+      border: "none !important"
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 5
+    }
+  }, __jsx("div", {
+    className: "container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 7
+    }
+  }, __jsx("nav", {
+    className: "navbar navbar-expand-lg navbar-dark",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 9
+    }
+  }, __jsx("a", {
+    className: "navbar-brand",
+    href: "index.html",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 11
+    }
+  }, __jsx("img", {
+    className: "navbar-logo navbar-logo-light logo-m",
+    src: "assets/images/logos/logodark.svg",
+    alt: "Logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 13
+    }
+  }), __jsx("img", {
+    className: "navbar-logo navbar-logo-dark logo-m",
+    src: "assets/images/logos/logolight.svg",
+    alt: "Logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 13
+    }
+  })), __jsx("button", {
+    className: "navbar-toggler",
+    type: "button",
+    "data-toggle": "collapse",
+    "data-target": "#navbarSupportedContent",
+    "aria-controls": "navbarSupportedContent",
+    "aria-expanded": "false",
+    "aria-label": "Toggle navigation",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, __jsx("span", {
+    className: "burger",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 213
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 238
+    }
+  }))), __jsx("div", {
+    className: "collapse navbar-collapse",
+    id: "navbarSupportedContent",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 11
+    }
+  }, __jsx("ul", {
+    className: "navbar-nav align-items-center mr-auto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }, __jsx("li", {
+    className: "nav-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 15
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    href: "index.html",
+    role: "button",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 17
+    }
+  }, "\u9996\u9875")), __jsx("li", {
+    className: "nav-item dropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    className: "nav-link dropdown-toggle",
+    href: "#",
+    id: "navbarDropdown",
+    role: "button",
+    "data-toggle": "dropdown",
+    "aria-haspopup": "true",
+    "aria-expanded": "false",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 15
+    }
+  }, "\u6838\u5FC3\u8BFE\u7A0B"), __jsx("div", {
+    className: "dropdown-menu",
+    "aria-labelledby": "navbarDropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 18
+    }
+  }, __jsx("a", {
+    className: "dropdown-item",
+    href: "http://www.ezcareer.ca/cfa.html",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 19
+    }
+  }, "CFAI\u7EA7 \u767E\u65F6\u73EDPlus"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 19
+    }
+  }, "\u7B7E\u7EA6\u4FDD\u8FC7 | \u7EBF\u4E0A\u7EBF\u4E0B | \u5317\u7F8E\u540C\u5F00")), __jsx("div", {
+    className: "dropdown-divider",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 17
+    }
+  }))), __jsx("li", {
+    className: "nav-item dropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 14
+    }
+  }, __jsx("a", {
+    className: "nav-link dropdown-toggle",
+    href: "#",
+    id: "navbarDropdown",
+    role: "button",
+    "data-toggle": "dropdown",
+    "aria-haspopup": "true",
+    "aria-expanded": "false",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "\u62A5\u540D\u8BFE\u7A0B"), __jsx("div", {
+    className: "dropdown-menu",
+    "aria-labelledby": "navbarDropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48,
+      columnNumber: 18
+    }
+  }, __jsx("a", {
+    className: "dropdown-item",
+    href: "http://moodle.ez4edu.com",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 19
+    }
+  }, "\u5B66\u5458\u7CFB\u7EDF"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 19
+    }
+  }, "\u5DF2\u7ECF\u62A5\u540D\u8BFE\u7A0B\u7684\u540C\u5B66")), __jsx("a", {
+    className: "dropdown-item",
+    href: "https://ezcareer.shop",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 19
+    }
+  }, "\u5927\u591A\u4F26\u591A\u5730\u533A"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 19
+    }
+  }, "\u5305\u62EC\u6ED1\u94C1\u5362 | \u7EBF\u4E0B\u53CA\u7EBF\u4E0B\u8BFE\u7A0B")), __jsx("div", {
+    className: "dropdown-divider",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 17
+    }
+  }), __jsx("a", {
+    className: "dropdown-item",
+    href: "https://ezc-alberta.shop",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 19
+    }
+  }, "\u963F\u5C14\u4F2F\u5854\u5730\u533A"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 19
+    }
+  }, "\u7EBF\u4E0B\u53CA\u7EBF\u4E0B\u8BFE\u7A0B")))), __jsx("li", {
+    className: "nav-item dropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 15
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    href: "vip.html",
+    role: "button",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 16
+    }
+  }, "1\u5BF91\u6C42\u804C\u670D\u52A1")), __jsx("li", {
+    className: "nav-item dropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 16
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    href: "http://jobs.ezcareer.ca/",
+    role: "button",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 16
+    }
+  }, "\u5C97\u4F4D\u76F4\u901A\u8F66")), __jsx("li", {
+    className: "nav-item dropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    className: "nav-link dropdown-toggle",
+    href: "#",
+    id: "navbarDropdown",
+    role: "button",
+    "data-toggle": "dropdown",
+    "aria-haspopup": "true",
+    "aria-expanded": "false",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82,
+      columnNumber: 15
+    }
+  }, "\u8054\u7CFB\u6211\u4EEC"), __jsx("div", {
+    className: "dropdown-menu",
+    "aria-labelledby": "navbarDropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 18
+    }
+  }, __jsx("a", {
+    className: "dropdown-item",
+    href: "career.html",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87,
+      columnNumber: 19
+    }
+  }, "\u52A0\u5165\u6211\u4EEC")), __jsx("div", {
+    className: "dropdown-divider",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 17
+    }
+  }), __jsx("a", {
+    className: "dropdown-item",
+    href: "contacts.html",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 17
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91,
+      columnNumber: 19
+    }
+  }, "\u8054\u7CFB\u6211\u4EEC"))))), __jsx("ul", {
+    className: "navbar-nav align-items-center mr-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 13
+    }
+  }, __jsx("li", {
+    className: "nav-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100,
+      columnNumber: 15
+    }
+  }, __jsx("a", {
+    className: "nav-link",
+    href: "http://www.easygroup.ca",
+    role: "button",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 17
+    }
+  }, "Powered by Easy Group")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 

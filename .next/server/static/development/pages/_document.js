@@ -878,6 +878,7 @@ module.exports = __webpack_require__(/*! ./dist/pages/_document */ "./node_modul
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
@@ -893,55 +894,158 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
-
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   static async getInitialProps(ctx) {
     const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_1___default.a.getInitialProps(ctx);
-    return _objectSpread({}, initialProps);
+
+    let props = _objectSpread({}, initialProps);
+
+    return props;
   }
 
   render() {
-    return __jsx("body", {
+    return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 5
-      }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 14,
         columnNumber: 7
       }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 15,
         columnNumber: 9
       }
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15,
-        columnNumber: 11
-      }
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
+    }, __jsx("meta", {
+      charSet: "utf-8",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16,
         columnNumber: 11
       }
-    })));
+    }), __jsx("meta", {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1, shrink-to-fit=no",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 11
+      }
+    }), __jsx("title", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 11
+      }
+    }, "Easy Career | \u627E\u5DE5\u4F5C\uFF0C\u4E0A\u6613\u804C"), __jsx("link", {
+      rel: "stylesheet",
+      href: "/assets/css/vendor.css",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 11
+      }
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/assets/css/style.css",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      src: "/assets/js/jquery-3.4.1.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      src: "//code.tidio.co/bvmdkbiydd0dddefe6od2ym6lrtkl9te.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      src: "/assets/js/vendor.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      src: "/assets/js/app.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      src: "/assets/js/shopify.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 11
+      }
+    }), __jsx("link", {
+      rel: "icon",
+      type: "image/png",
+      href: "assets/images/favicon.png",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      async: true,
+      src: "https://www.googletagmanager.com/gtag/js?id=UA-140811008-5",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      async: true,
+      src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 11
+      }
+    })), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 11
+      }
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 11
+      }
+    }));
   }
 
 }
-
-/* harmony default export */ __webpack_exports__["default"] = (MyDocument);
 
 /***/ }),
 
