@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
+import { useEffect } from 'react';
 
 
 // import EZC_LOGO_DARK from '//assets/images/logos/EZG_LOGO_DARK.png';
@@ -7,8 +8,25 @@ import Head from 'next/head';
 // import landing1 from '//assets/images/landing/landing-1.jpg';
 
 
-const Home: NextPage = () => (
-    <div>
+
+function Home(){
+
+  useEffect(()=>{
+    let tar = document.getElementById('__next');
+    console.log(tar)
+    // @ts-ignore
+    // tar.parentNode.innerHTML = tar.children[0].innerHTML;
+    // @ts-ignore
+    console.log(tar.parentNode.innerHTML)
+    
+  })
+
+
+
+  return (
+
+  
+    <body>
     <Head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -301,243 +319,7 @@ const Home: NextPage = () => (
                 </div>
               </div>
             </div>  
-            {/* products
-    <section className="pt-0">
-      <div className="container">
-        <div className="row gutter-1">
-          <div className="col-md-6 col-lg-4">
-            <div className="accordion-group accordion-group-feature" data-accordion-group>
-              <div className="accordion" data-accordion data-aos="fade-up">
-                <div className="accordion-control" data-control>
-                  <i className="fw-25 svg-icon fs-50 text-orange">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                       width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                    <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="32" r="26"/>
-                    <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="32,20 32,32 40,36 "/>
-                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="21.995" y1="56.005" x2="15" y2="63"/>
-                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="49" y1="63" x2="42.005" y2="56.005"/>
-                    <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="1,8 5,4 15,6 3,18 "/>
-                    <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="59,4 63,8 61,18 49,6 "/>
-                    </svg>
-                  </i>
-                  <h4 className="fs-16">金融证书类课程</h4>
-                </div>
-                <div className="accordion-content" data-content>
-                  <div className="accordion-content-wrapper">
-                    <ul className="list-group list-group-minimal">
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        CFA I级 保过班 <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        CFA II级 保过班 <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        CSC 证书班 <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        SAS 双证班 <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        FRM 证书班 <i className="icon-check2 fs-20"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion" data-accordion data-aos="fade-up">
-                <div className="accordion-control" data-control>
-                  <i className="fw-25 svg-icon fs-50 text-orange">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                       width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                    <g>
-                      <rect x="1" y="18" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="62" height="36"/>
-                    </g>
-                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="1" y1="30" x2="63" y2="30"/>
-                    <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="27,30 27,36 37,36 37,30 "/>
-                    <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M23,18c0,0,0-8,9-8s9,8,9,8"/>
-                    </svg>
-                  </i>
-                  <h4 className="fs-16">职场硬技能课程</h4>
-                </div>
-                <div className="accordion-content" data-content>
-                  <div className="accordion-content-wrapper">
-                    <ul className="list-group list-group-minimal">
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i className="icon-check2 fs-20"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="accordion-group accordion-group-feature" data-accordion-group>
-              <div className="accordion" data-accordion data-aos="fade-up">
-                <div className="accordion-control" data-control>
-                  <i className="fw-25 svg-icon fs-50 text-orange">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                       width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="7" y1="0" x2="7" y2="64"/>
-                    <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="32.062,6 26,11 26,35 57,35 51,23 57,11 
-                      26,11 "/>
-                    <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="26,30 7,30 7,6 32,6 32,11 "/>
-                    </svg>
-                  </i>
-                  <h4 className="fs-16">Food & Drink</h4>
-                </div>
-                <div className="accordion-content" data-content>
-                  <div className="accordion-content-wrapper">
-                    <ul className="list-group list-group-minimal">
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i className="icon-check2 fs-20"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion" data-accordion data-aos="fade-up">
-                <div className="accordion-control" data-control>
-                  <i className="fw-25 svg-icon fs-50 text-orange">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                       width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                    <polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="56,22 56,54 1,54 1,15 19.629,15 26.726,22 
-                      "/>
-                    <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="8,13 8,7 26.629,7 33.726,14 63,14 63,46 
-                      58,46 "/>
-                    </svg>
-                  </i>
-                  <h4 className="fs-16">Transportation</h4>
-                </div>
-                <div className="accordion-content" data-content>
-                  <div className="accordion-content-wrapper">
-                    <ul className="list-group list-group-minimal">
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i className="icon-check2 fs-20"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
-            <div className="accordion-group accordion-group-feature" data-accordion-group>
-              <div className="accordion" data-accordion data-aos="fade-up">
-                <div className="accordion-control" data-control>
-                  <i className="fw-25 svg-icon fs-50 text-orange">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                       width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                    <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,1c14.359,0,27,12.641,27,27S46.359,55,32,55
-                      c-10,0-13-4-13-4"/>
-                    <circle fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="32" cy="28" r="20"/>
-                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="32" y1="54" x2="32" y2="64"/>
-                    <line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="22" y1="63" x2="42" y2="63"/>
-                    </svg>
-                  </i>
-                  <h4 className="fs-16">Amenities</h4>
-                </div>
-                <div className="accordion-content" data-content>
-                  <div className="accordion-content-wrapper">
-                    <ul className="list-group list-group-minimal">
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i className="icon-check2 fs-20"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion" data-accordion data-aos="fade-up">
-                <div className="accordion-control" data-control>
-                  <i className="fw-25 svg-icon fs-50 text-orange">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                       width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                    <g>
-                      <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="1,26 32,45.434 63,26   "/>
-                      <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="11.334,21.667 1,26 1,63 63,63 63,26 
-                        63,26 52.666,21.667   "/>
-                      <polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="11,32 11,1 53,1 53,32  "/>
-                    </g>
-                    </svg>
-                  </i>
-                  <h4 className="fs-16">Entertainment</h4>
-                </div>
-                <div className="accordion-content" data-content>
-                  <div className="accordion-content-wrapper">
-                    <ul className="list-group list-group-minimal">
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bidet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Bathroom <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Toilet <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Free toiletries <i className="icon-check2 fs-20"></i>
-                      </li>
-                      <li className="list-group-item d-flex justify-content-between align-items-center">
-                        Hairdryer <i className="icon-check2 fs-20"></i>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- / products */}
+            
           </div>
         </section>
         {/* / about */}
@@ -950,10 +732,10 @@ const Home: NextPage = () => (
           </div>
         </footer>
         {/* / footer */}
-    
-  </div>
+        </body>
+ 
 
-);
+)};
 
 // Home.getInitialProps = async ({ req }) => {
 //   const userAgent = req ? req.headers['user-agent'] || '' : navigator.userAgent;
