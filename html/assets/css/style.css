@@ -45,7 +45,6 @@
 *::after {
   box-sizing: border-box; }
 
-  
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -20401,7 +20400,7 @@ pre[class*="language-"] {
   z-index: 2;
   visibility: hidden;
   opacity: 0;
-  overflow: hidden;
+  overflow: hiden;
   transition: .64s ease-in-out;
   z-index:9999
 }
